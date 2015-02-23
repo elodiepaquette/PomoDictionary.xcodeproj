@@ -1,0 +1,1671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0324254E190D67000077EB3E /* dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0324254D190D67000077EB3E /* dictionary.plist */; };
+		03242551190D6D540077EB3E /* PDWordCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03242550190D6D540077EB3E /* PDWordCollectionViewCell.m */; };
+		03242554190D6D6F0077EB3E /* PDWordCollectionViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03242553190D6D6F0077EB3E /* PDWordCollectionViewCell~ipad.xib */; };
+		03986D6F1908279300CCC87F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03986D6E1908279300CCC87F /* Foundation.framework */; };
+		03986D711908279300CCC87F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03986D701908279300CCC87F /* CoreGraphics.framework */; };
+		03986D731908279300CCC87F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03986D721908279300CCC87F /* UIKit.framework */; };
+		03986D791908279300CCC87F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03986D771908279300CCC87F /* InfoPlist.strings */; };
+		03986D7B1908279300CCC87F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03986D7A1908279300CCC87F /* main.m */; };
+		03986D7F1908279300CCC87F /* PDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03986D7E1908279300CCC87F /* PDAppDelegate.m */; };
+		03986D8D1908279300CCC87F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03986D8C1908279300CCC87F /* Images.xcassets */; };
+		03986D941908279300CCC87F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03986D931908279300CCC87F /* XCTest.framework */; };
+		03986D951908279300CCC87F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03986D6E1908279300CCC87F /* Foundation.framework */; };
+		03986D961908279300CCC87F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03986D721908279300CCC87F /* UIKit.framework */; };
+		03986D9E1908279300CCC87F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03986D9C1908279300CCC87F /* InfoPlist.strings */; };
+		03986DA01908279300CCC87F /* PomoDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03986D9F1908279300CCC87F /* PomoDictionaryTests.m */; };
+		03986DB11908294100CCC87F /* PDDictionaryGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03986DAF1908294100CCC87F /* PDDictionaryGridViewController.m */; };
+		03986DB21908294100CCC87F /* PDDictionaryGridViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03986DB01908294100CCC87F /* PDDictionaryGridViewController~ipad.xib */; };
+		A5160FCA194F5FAD0068D67B /* PDHomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5160FC8194F5FAD0068D67B /* PDHomeScreenViewController.m */; };
+		A5160FCB194F5FAE0068D67B /* PDHomeScreenViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5160FC9194F5FAD0068D67B /* PDHomeScreenViewController~ipad.xib */; };
+		A5160FCD194F626E0068D67B /* home page.png in Resources */ = {isa = PBXBuildFile; fileRef = A5160FCC194F626E0068D67B /* home page.png */; };
+		A5160FDB194F78A00068D67B /* PDCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5160FD9194F78A00068D67B /* PDCategoryViewController.m */; };
+		A5160FDC194F78A00068D67B /* PDCategoryViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5160FDA194F78A00068D67B /* PDCategoryViewController~ipad.xib */; };
+		A5160FE5194F7EA90068D67B /* all.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5160FDD194F7EA90068D67B /* all.jpg */; };
+		A5160FE6194F7EA90068D67B /* animals.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5160FDE194F7EA90068D67B /* animals.jpg */; };
+		A5160FE7194F7EA90068D67B /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5160FDF194F7EA90068D67B /* food.jpg */; };
+		A5160FE8194F7EA90068D67B /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5160FE0194F7EA90068D67B /* home.jpg */; };
+		A5160FE9194F7EA90068D67B /* nature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5160FE1194F7EA90068D67B /* nature.jpg */; };
+		A5160FEA194F7EA90068D67B /* people.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5160FE2194F7EA90068D67B /* people.jpg */; };
+		A5160FEB194F7EA90068D67B /* places.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5160FE3194F7EA90068D67B /* places.jpg */; };
+		A5160FEC194F7EA90068D67B /* traditional.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5160FE4194F7EA90068D67B /* traditional.jpg */; };
+		A5160FEE19508A7D0068D67B /* Screen Shot 2014-06-17 at 10.38.00 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = A5160FED19508A7D0068D67B /* Screen Shot 2014-06-17 at 10.38.00 AM.png */; };
+		A5160FF31950B7E50068D67B /* PDAnimalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5160FF11950B7E50068D67B /* PDAnimalsViewController.m */; };
+		A5160FF41950B7E50068D67B /* PDAnimalsViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5160FF21950B7E50068D67B /* PDAnimalsViewController~ipad.xib */; };
+		A5160FF81950B7FC0068D67B /* PDFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5160FF61950B7FC0068D67B /* PDFoodViewController.m */; };
+		A5160FF91950B7FC0068D67B /* PDFoodViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5160FF71950B7FC0068D67B /* PDFoodViewController~ipad.xib */; };
+		A5160FFD1950B8090068D67B /* PDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5160FFB1950B8090068D67B /* PDHomeViewController.m */; };
+		A5160FFE1950B8090068D67B /* PDHomeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5160FFC1950B8090068D67B /* PDHomeViewController~ipad.xib */; };
+		A51610021950B9E70068D67B /* PDPlantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A51610001950B9E70068D67B /* PDPlantsViewController.m */; };
+		A51610031950B9E70068D67B /* PDPlantsViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A51610011950B9E70068D67B /* PDPlantsViewController~ipad.xib */; };
+		A51610071950BA000068D67B /* PDPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A51610051950BA000068D67B /* PDPeopleViewController.m */; };
+		A51610081950BA000068D67B /* PDPeopleViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A51610061950BA000068D67B /* PDPeopleViewController~ipad.xib */; };
+		A516100C1950BA120068D67B /* PDPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A516100A1950BA120068D67B /* PDPlacesViewController.m */; };
+		A516100D1950BA120068D67B /* PDPlacesViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A516100B1950BA120068D67B /* PDPlacesViewController~ipad.xib */; };
+		A51610111950BA210068D67B /* PDTraditionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A516100F1950BA210068D67B /* PDTraditionalViewController.m */; };
+		A51610121950BA210068D67B /* PDTraditionalViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A51610101950BA210068D67B /* PDTraditionalViewController~ipad.xib */; };
+		A51610141950BDBE0068D67B /* animals.plist in Resources */ = {isa = PBXBuildFile; fileRef = A51610131950BDBE0068D67B /* animals.plist */; };
+		A51610161950BE8E0068D67B /* traditional.plist in Resources */ = {isa = PBXBuildFile; fileRef = A51610151950BE8E0068D67B /* traditional.plist */; };
+		A51610191950C41F0068D67B /* food.plist in Resources */ = {isa = PBXBuildFile; fileRef = A51610181950C41F0068D67B /* food.plist */; };
+		A516101B1950C4270068D67B /* home.plist in Resources */ = {isa = PBXBuildFile; fileRef = A516101A1950C4270068D67B /* home.plist */; };
+		A516101D1950C42E0068D67B /* nature.plist in Resources */ = {isa = PBXBuildFile; fileRef = A516101C1950C42E0068D67B /* nature.plist */; };
+		A516101F1950C4420068D67B /* people.plist in Resources */ = {isa = PBXBuildFile; fileRef = A516101E1950C4420068D67B /* people.plist */; };
+		A51610211950C44A0068D67B /* places.plist in Resources */ = {isa = PBXBuildFile; fileRef = A51610201950C44A0068D67B /* places.plist */; };
+		A51610251951F8EA0068D67B /* PDContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A51610231951F8EA0068D67B /* PDContactViewController.m */; };
+		A51610261951F8EA0068D67B /* PDContactViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A51610241951F8EA0068D67B /* PDContactViewController~ipad.xib */; };
+		A544304319BA19D900309E91 /* PDAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A544304219BA19D800309E91 /* PDAboutViewController.xib */; };
+		A544304519BA19E700309E91 /* PDContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A544304419BA19E700309E91 /* PDContactViewController.xib */; };
+		A549C6C61952295700A1AC73 /* new_acorn_mush.png in Resources */ = {isa = PBXBuildFile; fileRef = A549C6C51952295700A1AC73 /* new_acorn_mush.png */; };
+		A5568F281953306400CA4B38 /* PDHomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5568F271953306400CA4B38 /* PDHomeScreenViewController.xib */; };
+		A56E1448194F30E400BAC46A /* new_sedge.png in Resources */ = {isa = PBXBuildFile; fileRef = A56E1446194F30E400BAC46A /* new_sedge.png */; };
+		A56E1449194F30E400BAC46A /* new_pinole.png in Resources */ = {isa = PBXBuildFile; fileRef = A56E1447194F30E400BAC46A /* new_pinole.png */; };
+		A592E93B19254D520017A3C7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A592E93A19254D520017A3C7 /* AVFoundation.framework */; };
+		A59429641908302A000DF532 /* PDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59429621908302A000DF532 /* PDAboutViewController.m */; };
+		A59429651908302A000DF532 /* PDAboutViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59429631908302A000DF532 /* PDAboutViewController~ipad.xib */; };
+		A594296819083ECC000DF532 /* PDWord.m in Sources */ = {isa = PBXBuildFile; fileRef = A594296719083ECC000DF532 /* PDWord.m */; };
+		A594296B190845BC000DF532 /* PDWordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A594296A190845BC000DF532 /* PDWordTableViewController.m */; };
+		A597C011195DCFAA009E41EA /* aa_mie_my_father.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFBA195DCFAA009E41EA /* aa_mie_my_father.mp3 */; };
+		A597C012195DCFAA009E41EA /* aa_miphane_my_daughter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFBB195DCFAA009E41EA /* aa_miphane_my_daughter.mp3 */; };
+		A597C013195DCFAA009E41EA /* aa_mithe_my_mother.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFBC195DCFAA009E41EA /* aa_mithe_my_mother.mp3 */; };
+		A597C014195DCFAA009E41EA /* aamibahan_my_husband.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFBD195DCFAA009E41EA /* aamibahan_my_husband.mp3 */; };
+		A597C015195DCFAA009E41EA /* aamidahan_my_wife.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFBE195DCFAA009E41EA /* aamidahan_my_wife.mp3 */; };
+		A597C016195DCFAA009E41EA /* aamiki_my_older_brother.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFBF195DCFAA009E41EA /* aamiki_my_older_brother.mp3 */; };
+		A597C017195DCFAA009E41EA /* aamitiy_my_younger_sister.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFC0195DCFAA009E41EA /* aamitiy_my_younger_sister.mp3 */; };
+		A597C018195DCFAA009E41EA /* aamitsu_my_uncle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFC1195DCFAA009E41EA /* aamitsu_my_uncle.mp3 */; };
+		A597C01A195DCFAA009E41EA /* bishe_deer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFC3195DCFAA009E41EA /* bishe_deer.mp3 */; };
+		A597C01B195DCFAA009E41EA /* bitaa_bear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFC4195DCFAA009E41EA /* bitaa_bear.mp3 */; };
+		A597C01C195DCFAA009E41EA /* bitumtu_ant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFC5195DCFAA009E41EA /* bitumtu_ant.mp3 */; };
+		A597C01D195DCFAA009E41EA /* bow_west.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFC6195DCFAA009E41EA /* bow_west.mp3 */; };
+		A597C01E195DCFAA009E41EA /* busa_yem_old_man.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFC7195DCFAA009E41EA /* busa_yem_old_man.mp3 */; };
+		A597C01F195DCFAA009E41EA /* chuhula_north.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFC8195DCFAA009E41EA /* chuhula_north.mp3 */; };
+		A597C020195DCFAA009E41EA /* dano_hill_mountain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFC9195DCFAA009E41EA /* dano_hill_mountain.mp3 */; };
+		A597C021195DCFAA009E41EA /* dashoya_young_woman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFCA195DCFAA009E41EA /* dashoya_young_woman.mp3 */; };
+		A597C022195DCFAA009E41EA /* datha_yem_old_woman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFCB195DCFAA009E41EA /* datha_yem_old_woman.mp3 */; };
+		A597C023195DCFAA009E41EA /* dishiy_black_oak_acorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFCC195DCFAA009E41EA /* dishiy_black_oak_acorn.mp3 */; };
+		A597C024195DCFAA009E41EA /* dishiy_xale_black_oak_tree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFCD195DCFAA009E41EA /* dishiy_xale_black_oak_tree.mp3 */; };
+		A597C025195DCFAA009E41EA /* ditsiya_bone_awl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFCE195DCFAA009E41EA /* ditsiya_bone_awl.mp3 */; };
+		A597C026195DCFAA009E41EA /* diwi_coyote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFCF195DCFAA009E41EA /* diwi_coyote.mp3 */; };
+		A597C027195DCFAA009E41EA /* gayna_chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFD0195DCFAA009E41EA /* gayna_chicken.mp3 */; };
+		A597C028195DCFAA009E41EA /* gayna_roast_chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFD1195DCFAA009E41EA /* gayna_roast_chicken.mp3 */; };
+		A597C029195DCFAA009E41EA /* hayphoma_sherwood_laytonville.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFD2195DCFAA009E41EA /* hayphoma_sherwood_laytonville.mp3 */; };
+		A597C02A195DCFAA009E41EA /* hayu_dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFD3195DCFAA009E41EA /* hayu_dog.mp3 */; };
+		A597C02B195DCFAA009E41EA /* ho_fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFD4195DCFAA009E41EA /* ho_fire.mp3 */; };
+		A597C02C195DCFAA009E41EA /* ih_feather.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFD5195DCFAA009E41EA /* ih_feather.mp3 */; };
+		A597C02D195DCFAA009E41EA /* iihol_beans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFD6195DCFAA009E41EA /* iihol_beans.mp3 */; };
+		A597C02E195DCFAA009E41EA /* ja_house.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFD7195DCFAA009E41EA /* ja_house.mp3 */; };
+		A597C030195DCFAA009E41EA /* jishil_meadowlark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFD9195DCFAA009E41EA /* jishil_meadowlark.mp3 */; };
+		A597C031195DCFAA009E41EA /* jom_xale_grey_pine_tree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFDA195DCFAA009E41EA /* jom_xale_grey_pine_tree.mp3 */; };
+		A597C032195DCFAA009E41EA /* kabay_onions.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFDB195DCFAA009E41EA /* kabay_onions.mp3 */; };
+		A597C033195DCFAA009E41EA /* kaday_gambling_sticks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFDC195DCFAA009E41EA /* kaday_gambling_sticks.mp3 */; };
+		A597C034195DCFAA009E41EA /* kal_bead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFDD195DCFAA009E41EA /* kal_bead.mp3 */; };
+		A597C035195DCFAA009E41EA /* kasil_xale_redwood_tree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFDE195DCFAA009E41EA /* kasil_xale_redwood_tree.mp3 */; };
+		A597C036195DCFAA009E41EA /* khe_kawiyabah_my_son.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFDF195DCFAA009E41EA /* khe_kawiyabah_my_son.mp3 */; };
+		A597C037195DCFAA009E41EA /* kuhum_white_sedge_root.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFE0195DCFAA009E41EA /* kuhum_white_sedge_root.mp3 */; };
+		A597C038195DCFAA009E41EA /* libuu_whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFE1195DCFAA009E41EA /* libuu_whistle.mp3 */; };
+		A597C03A195DCFAA009E41EA /* maayish_corn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFE3195DCFAA009E41EA /* maayish_corn.mp3 */; };
+		A597C03B195DCFAA009E41EA /* maayish_jinii_cornbread.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFE4195DCFAA009E41EA /* maayish_jinii_cornbread.mp3 */; };
+		A597C03C195DCFAA009E41EA /* masan_jinii_white_bread.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFE5195DCFAA009E41EA /* masan_jinii_white_bread.mp3 */; };
+		A597C03D195DCFAA009E41EA /* millee_redbud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFE6195DCFAA009E41EA /* millee_redbud.mp3 */; };
+		A597C03E195DCFAA009E41EA /* misaxala_snake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFE7195DCFAA009E41EA /* misaxala_snake.mp3 */; };
+		A597C03F195DCFAA009E41EA /* mishin_car.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFE8195DCFAA009E41EA /* mishin_car.mp3 */; };
+		A597C040195DCFAA009E41EA /* mithaa_sun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFE9195DCFAA009E41EA /* mithaa_sun.mp3 */; };
+		A597C041195DCFAA009E41EA /* mithuulu_lizard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFEA195DCFAA009E41EA /* mithuulu_lizard.mp3 */; };
+		A597C042195DCFAA009E41EA /* phika_basket.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFEB195DCFAA009E41EA /* phika_basket.mp3 */; };
+		A597C043195DCFAA009E41EA /* philus_tornado.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFEC195DCFAA009E41EA /* philus_tornado.mp3 */; };
+		A597C044195DCFAA009E41EA /* phitam_flower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFED195DCFAA009E41EA /* phitam_flower.mp3 */; };
+		A597C045195DCFAA009E41EA /* phut_fog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFEE195DCFAA009E41EA /* phut_fog.mp3 */; };
+		A597C046195DCFAA009E41EA /* sha_fish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFEF195DCFAA009E41EA /* sha_fish.mp3 */; };
+		A597C047195DCFAA009E41EA /* shakaaka_valley_quail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFF0195DCFAA009E41EA /* shakaaka_valley_quail.mp3 */; };
+		A597C048195DCFAA009E41EA /* shakoodo_rabbit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFF1195DCFAA009E41EA /* shakoodo_rabbit.mp3 */; };
+		A597C049195DCFAA009E41EA /* shatson_quilt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFF2195DCFAA009E41EA /* shatson_quilt.mp3 */; };
+		A597C04A195DCFAA009E41EA /* show_east.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFF3195DCFAA009E41EA /* show_east.mp3 */; };
+		A597C04B195DCFAA009E41EA /* showdaxay_coyote_valley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFF4195DCFAA009E41EA /* showdaxay_coyote_valley.mp3 */; };
+		A597C04C195DCFAA009E41EA /* sika_baby_basket.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFF5195DCFAA009E41EA /* sika_baby_basket.mp3 */; };
+		A597C04D195DCFAA009E41EA /* so_clover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFF6195DCFAA009E41EA /* so_clover.mp3 */; };
+		A597C04E195DCFAA009E41EA /* them_abalone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFF7195DCFAA009E41EA /* them_abalone.mp3 */; };
+		A597C04F195DCFAA009E41EA /* them_kata_abalone_shell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFF8195DCFAA009E41EA /* them_kata_abalone_shell.mp3 */; };
+		A597C050195DCFAA009E41EA /* thonuk_seaweed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFF9195DCFAA009E41EA /* thonuk_seaweed.mp3 */; };
+		A597C051195DCFAA009E41EA /* thooo_acorn_mush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFFA195DCFAA009E41EA /* thooo_acorn_mush.mp3 */; };
+		A597C052195DCFAA009E41EA /* tibee_tule.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFFB195DCFAA009E41EA /* tibee_tule.mp3 */; };
+		A597C053195DCFAA009E41EA /* tik_string.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFFC195DCFAA009E41EA /* tik_string.mp3 */; };
+		A597C054195DCFAA009E41EA /* toltiya_tortilla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFFD195DCFAA009E41EA /* toltiya_tortilla.mp3 */; };
+		A597C055195DCFAA009E41EA /* tsiwish_black_root.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFFE195DCFAA009E41EA /* tsiwish_black_root.mp3 */; };
+		A597C056195DCFAA009E41EA /* tsiya_red_tailed_hawk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597BFFF195DCFAA009E41EA /* tsiya_red_tailed_hawk.mp3 */; };
+		A597C057195DCFAA009E41EA /* tsuu_arrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C000195DCFAA009E41EA /* tsuu_arrow.mp3 */; };
+		A597C058195DCFAA009E41EA /* uy_di_ema_eyeglasses.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C001195DCFAA009E41EA /* uy_di_ema_eyeglasses.mp3 */; };
+		A597C059195DCFAA009E41EA /* xa_water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C002195DCFAA009E41EA /* xa_water.mp3 */; };
+		A597C05A195DCFAA009E41EA /* xabaa_cloud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C003195DCFAA009E41EA /* xabaa_cloud.mp3 */; };
+		A597C05B195DCFAA009E41EA /* xabe_rock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C004195DCFAA009E41EA /* xabe_rock.mp3 */; };
+		A597C05C195DCFAA009E41EA /* xabeda_river.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C005195DCFAA009E41EA /* xabeda_river.mp3 */; };
+		A597C05D195DCFAA009E41EA /* xadalom_cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C006195DCFAA009E41EA /* xadalom_cat.mp3 */; };
+		A597C05E195DCFAA009E41EA /* xaja_kujiya_flint_knife.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C007195DCFAA009E41EA /* xaja_kujiya_flint_knife.mp3 */; };
+		A597C05F195DCFAA009E41EA /* xal_mussels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C008195DCFAA009E41EA /* xal_mussels.mp3 */; };
+		A597C060195DCFAA009E41EA /* xalal_willow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C009195DCFAA009E41EA /* xalal_willow.mp3 */; };
+		A597C061195DCFAA009E41EA /* xashapomitin_lake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C00A195DCFAA009E41EA /* xashapomitin_lake.mp3 */; };
+		A597C062195DCFAA009E41EA /* xati_bed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C00B195DCFAA009E41EA /* xati_bed.mp3 */; };
+		A597C063195DCFAA009E41EA /* xawaa_xale_fir_tree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C00C195DCFAA009E41EA /* xawaa_xale_fir_tree.mp3 */; };
+		A597C064195DCFAA009E41EA /* yoow_south.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C00D195DCFAA009E41EA /* yoow_south.mp3 */; };
+		A597C065195DCFAA009E41EA /* yowsha_salmon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C00E195DCFAA009E41EA /* yowsha_salmon.mp3 */; };
+		A597C066195DCFAA009E41EA /* yoxayamaa_ukiah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C00F195DCFAA009E41EA /* yoxayamaa_ukiah.mp3 */; };
+		A597C067195DCFAA009E41EA /* yuhuu_pinole.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C010195DCFAA009E41EA /* yuhuu_pinole.mp3 */; };
+		A597C069195DEAC2009E41EA /* butterfly_uytoktok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C068195DEAC2009E41EA /* butterfly_uytoktok.jpg */; };
+		A597C06B195DEB57009E41EA /* butterfly_uytoktok2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C06A195DEB57009E41EA /* butterfly_uytoktok2.mp3 */; };
+		A597C06D195DEC89009E41EA /* bitumtu_ant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C06C195DEC89009E41EA /* bitumtu_ant.jpg */; };
+		A597C06F195DF4AF009E41EA /* dog_hayu2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C06E195DF4AF009E41EA /* dog_hayu2.mp3 */; };
+		A597C071195DF4BD009E41EA /* fish.sha2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C070195DF4BD009E41EA /* fish.sha2.mp3 */; };
+		A597C073195DF4D3009E41EA /* beans.iihol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C072195DF4D3009E41EA /* beans.iihol.mp3 */; };
+		A597C075195DF4DD009E41EA /* seaweed.tonuk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C074195DF4DD009E41EA /* seaweed.tonuk.mp3 */; };
+		A597C077195DF4EE009E41EA /* maata_woman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C076195DF4EE009E41EA /* maata_woman.mp3 */; };
+		A597C079195DF508009E41EA /* CoyoteValley.showdaxay2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C078195DF508009E41EA /* CoyoteValley.showdaxay2.mp3 */; };
+		A597C07B195DF538009E41EA /* baloxay_Potter_Valley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C07A195DF538009E41EA /* baloxay_Potter_Valley.mp3 */; };
+		A597C07D195DF564009E41EA /* water.xa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C07C195DF564009E41EA /* water.xa.mp3 */; };
+		A597C07F195DF841009E41EA /* baloxay_potter_valley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A597C07E195DF841009E41EA /* baloxay_potter_valley.mp3 */; };
+		A597C0811961D38E009E41EA /* them_kata_abalone_shell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C0801961D38E009E41EA /* them_kata_abalone_shell.jpg */; };
+		A597C0831961D3FD009E41EA /* ka'day_gambling_sticks.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C0821961D3FD009E41EA /* ka'day_gambling_sticks.png */; };
+		A597C0851961D410009E41EA /* mishin_car.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C0841961D410009E41EA /* mishin_car.png */; };
+		A597C0871961D41F009E41EA /* t'ik'_string.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C0861961D41F009E41EA /* t'ik'_string.jpg */; };
+		A597C0891961D43D009E41EA /* phut'_fog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C0881961D43D009E41EA /* phut'_fog.jpg */; };
+		A597C08B1961D447009E41EA /* kasil_xale_redwood_tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C08A1961D447009E41EA /* kasil_xale_redwood_tree.jpg */; };
+		A597C08D1961D451009E41EA /* mith'aa_sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C08C1961D451009E41EA /* mith'aa_sun.jpg */; };
+		A597C08F1961D45D009E41EA /* philus_tornado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C08E1961D45D009E41EA /* philus_tornado.jpg */; };
+		A597C0911961D46A009E41EA /* tibee_tule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C0901961D46A009E41EA /* tibee_tule.jpg */; };
+		A597C0931961D479009E41EA /* 'aa-miphane_my_daughter.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C0921961D479009E41EA /* 'aa-miphane_my_daughter.png */; };
+		A597C0951961D485009E41EA /* 'aa-mi'e_my_father.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C0941961D485009E41EA /* 'aa-mi'e_my_father.png */; };
+		A597C0971961D48F009E41EA /* 'aamibahan_my_husband.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C0961961D48F009E41EA /* 'aamibahan_my_husband.png */; };
+		A597C0991961D49A009E41EA /* 'aa-mithe_my_mother.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C0981961D49A009E41EA /* 'aa-mithe_my_mother.png */; };
+		A597C09B1961D4A7009E41EA /* khe_kawiyabah_my_son.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C09A1961D4A7009E41EA /* khe_kawiyabah_my_son.png */; };
+		A597C09D1961D4B5009E41EA /* 'aamidahan_my_wife.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C09C1961D4B5009E41EA /* 'aamidahan_my_wife.png */; };
+		A597C09F1961D4C0009E41EA /* 'aamit'iy_my_younger_sister.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C09E1961D4C0009E41EA /* 'aamit'iy_my_younger_sister.png */; };
+		A597C0A31961D506009E41EA /* datha_yem_old_woman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C0A21961D506009E41EA /* datha_yem_old_woman.jpg */; };
+		A597C0A51961D511009E41EA /* chuhula_north.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C0A41961D511009E41EA /* chuhula_north.png */; };
+		A597C0A71961D55E009E41EA /* busa_yem_old_man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C0A61961D55E009E41EA /* busa_yem_old_man.jpg */; };
+		A597C0A91961D566009E41EA /* yoow_south.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C0A81961D566009E41EA /* yoow_south.png */; };
+		A597C0AB1961D56D009E41EA /* show_east.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C0AA1961D56D009E41EA /* show_east.png */; };
+		A597C0AD1961D7D5009E41EA /* boow_west.png in Resources */ = {isa = PBXBuildFile; fileRef = A597C0AC1961D7D5009E41EA /* boow_west.png */; };
+		A597C0AF1961DD61009E41EA /* old_man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A597C0AE1961DD61009E41EA /* old_man.jpg */; };
+		A59915A01909EB8600B1AE8E /* PDWordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A599159E1909EB8600B1AE8E /* PDWordDetailViewController.m */; };
+		A59915A11909EB8600B1AE8E /* PDWordDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A599159F1909EB8600B1AE8E /* PDWordDetailViewController.xib */; };
+		A59915A31909EF1600B1AE8E /* PDWordDetailViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59915A21909EF1600B1AE8E /* PDWordDetailViewController~ipad.xib */; };
+		A59915A5190AAA2E00B1AE8E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59915A4190AAA2E00B1AE8E /* AudioToolbox.framework */; };
+		A59915CB190D611200B1AE8E /* Edna3.png in Resources */ = {isa = PBXBuildFile; fileRef = A59915B0190D611100B1AE8E /* Edna3.png */; };
+		A59915CC190D611200B1AE8E /* Elenor.png in Resources */ = {isa = PBXBuildFile; fileRef = A59915B1190D611100B1AE8E /* Elenor.png */; };
+		A59915CD190D611200B1AE8E /* balo'xay_Potter_Valley.png in Resources */ = {isa = PBXBuildFile; fileRef = A59915B2190D611100B1AE8E /* balo'xay_Potter_Valley.png */; };
+		A59915CE190D611200B1AE8E /* dano_hill_mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915B3190D611100B1AE8E /* dano_hill_mountain.jpg */; };
+		A59915D0190D611200B1AE8E /* dishiy_xale_black_oak_tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915B5190D611100B1AE8E /* dishiy_xale_black_oak_tree.jpg */; };
+		A59915D1190D611200B1AE8E /* gayna'_chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915B6190D611100B1AE8E /* gayna'_chicken.jpg */; };
+		A59915D2190D611200B1AE8E /* iihol'_beans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915B7190D611100B1AE8E /* iihol'_beans.jpg */; };
+		A59915D3190D611200B1AE8E /* ja_house.png in Resources */ = {isa = PBXBuildFile; fileRef = A59915B8190D611100B1AE8E /* ja_house.png */; };
+		A59915D4190D611200B1AE8E /* jom_xale_grey_pine_tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915B9190D611100B1AE8E /* jom_xale_grey_pine_tree.jpg */; };
+		A59915D5190D611200B1AE8E /* k'abay_onions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915BA190D611100B1AE8E /* k'abay_onions.jpg */; };
+		A59915D6190D611200B1AE8E /* k'uhum_white_sedge_root.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915BB190D611100B1AE8E /* k'uhum_white_sedge_root.jpg */; };
+		A59915D7190D611200B1AE8E /* maayish_jinii_cornbread.png in Resources */ = {isa = PBXBuildFile; fileRef = A59915BC190D611100B1AE8E /* maayish_jinii_cornbread.png */; };
+		A59915D8190D611200B1AE8E /* phit'am_flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915BD190D611100B1AE8E /* phit'am_flower.jpg */; };
+		A59915D9190D611200B1AE8E /* so_clover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915BE190D611200B1AE8E /* so_clover.jpg */; };
+		A59915DA190D611200B1AE8E /* them_abalone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915BF190D611200B1AE8E /* them_abalone.jpg */; };
+		A59915DB190D611200B1AE8E /* thonuk_seaweed.png in Resources */ = {isa = PBXBuildFile; fileRef = A59915C0190D611200B1AE8E /* thonuk_seaweed.png */; };
+		A59915DC190D611200B1AE8E /* tortilla.png in Resources */ = {isa = PBXBuildFile; fileRef = A59915C1190D611200B1AE8E /* tortilla.png */; };
+		A59915DD190D611200B1AE8E /* ts'iwish_black_root.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915C2190D611200B1AE8E /* ts'iwish_black_root.jpg */; };
+		A59915DE190D611200B1AE8E /* xa_water.png in Resources */ = {isa = PBXBuildFile; fileRef = A59915C3190D611200B1AE8E /* xa_water.png */; };
+		A59915DF190D611200B1AE8E /* xabeda_river.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915C4190D611200B1AE8E /* xabeda_river.jpg */; };
+		A59915E0190D611200B1AE8E /* xal_mussels.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915C5190D611200B1AE8E /* xal_mussels.jpg */; };
+		A59915E1190D611200B1AE8E /* xalal_willow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915C6190D611200B1AE8E /* xalal_willow.jpg */; };
+		A59915E2190D611200B1AE8E /* xashapomitin_lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59915C7190D611200B1AE8E /* xashapomitin_lake.jpg */; };
+		A59915E3190D611200B1AE8E /* yuhuu_pinole.png in Resources */ = {isa = PBXBuildFile; fileRef = A59915C8190D611200B1AE8E /* yuhuu_pinole.png */; };
+		A59B03A01912D11F0053B4D8 /* original.png in Resources */ = {isa = PBXBuildFile; fileRef = A59B039F1912D11F0053B4D8 /* original.png */; };
+		A59B03A21912D2950053B4D8 /* photo-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A59B03A11912D2950053B4D8 /* photo-frame@2x.png */; };
+		A59B03AF1912DA010053B4D8 /* bishe_deer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59B03A31912DA010053B4D8 /* bishe_deer.jpg */; };
+		A59B03B11912DA010053B4D8 /* bitaa_bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59B03A51912DA010053B4D8 /* bitaa_bear.jpg */; };
+		A59B03B21912DA010053B4D8 /* gayna'_roast_chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59B03A61912DA010053B4D8 /* gayna'_roast_chicken.jpg */; };
+		A59B03B31912DA010053B4D8 /* hayu_dog.png in Resources */ = {isa = PBXBuildFile; fileRef = A59B03A71912DA010053B4D8 /* hayu_dog.png */; };
+		A59B03B41912DA010053B4D8 /* millee_redbud.png in Resources */ = {isa = PBXBuildFile; fileRef = A59B03A81912DA010053B4D8 /* millee_redbud.png */; };
+		A59B03B51912DA010053B4D8 /* phik'a_basket.png in Resources */ = {isa = PBXBuildFile; fileRef = A59B03A91912DA010053B4D8 /* phik'a_basket.png */; };
+		A59B03B61912DA010053B4D8 /* xabaa_cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = A59B03AA1912DA010053B4D8 /* xabaa_cloud.png */; };
+		A59B03B71912DA010053B4D8 /* xabe_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = A59B03AB1912DA010053B4D8 /* xabe_rock.png */; };
+		A59B03B81912DA010053B4D8 /* xaja_kujiya_flint_knife.png in Resources */ = {isa = PBXBuildFile; fileRef = A59B03AC1912DA010053B4D8 /* xaja_kujiya_flint_knife.png */; };
+		A59B03B91912DA010053B4D8 /* xawaa_xale_fir_tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59B03AD1912DA010053B4D8 /* xawaa_xale_fir_tree.jpg */; };
+		A59B03BA1912DA010053B4D8 /* yowsha_salmon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59B03AE1912DA010053B4D8 /* yowsha_salmon.jpg */; };
+		A59B03BC1912DA820053B4D8 /* dishiy_black_oak_acorn.png in Resources */ = {isa = PBXBuildFile; fileRef = A59B03BB1912DA820053B4D8 /* dishiy_black_oak_acorn.png */; };
+		A59B03BE1912DAF70053B4D8 /* dishiy_black_oak_acorn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59B03BD1912DAF70053B4D8 /* dishiy_black_oak_acorn.jpg */; };
+		A59B03C01912DCFA0053B4D8 /* hakaaka_valley_quail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59B03BF1912DCFA0053B4D8 /* hakaaka_valley_quail.jpg */; };
+		A59B04BA1912E2D40053B4D8 /* diwi_coyote.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59B04B41912E2D40053B4D8 /* diwi_coyote.jpg */; };
+		A59B04BB1912E2D40053B4D8 /* jishil_meadowlark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59B04B51912E2D40053B4D8 /* jishil_meadowlark.jpg */; };
+		A59B04BC1912E2D40053B4D8 /* misaxala_snake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59B04B61912E2D40053B4D8 /* misaxala_snake.jpg */; };
+		A59B04BD1912E2D40053B4D8 /* mithuulu_lizard.png in Resources */ = {isa = PBXBuildFile; fileRef = A59B04B71912E2D40053B4D8 /* mithuulu_lizard.png */; };
+		A59B04BE1912E2D40053B4D8 /* shakoodo_rabbit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59B04B81912E2D40053B4D8 /* shakoodo_rabbit.jpg */; };
+		A59B04BF1912E2D40053B4D8 /* shats'on_quilt.png.png in Resources */ = {isa = PBXBuildFile; fileRef = A59B04B91912E2D40053B4D8 /* shats'on_quilt.png.png */; };
+		A59BFBD6192A7504000D45CC /* catDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = A59BFBD5192A7504000D45CC /* catDictionary.plist */; };
+		A59BFC6A192CEEE2000D45CC /* dictionaryUpdate.plist in Resources */ = {isa = PBXBuildFile; fileRef = A59BFC69192CEEE2000D45CC /* dictionaryUpdate.plist */; };
+		A59BFD92192D2E4B000D45CC /* 'ih_feather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59BFD8B192D2E4B000D45CC /* 'ih_feather.jpg */; };
+		A59BFD93192D2E4B000D45CC /* ’uy-diṱema’_eyeglasses.png in Resources */ = {isa = PBXBuildFile; fileRef = A59BFD8C192D2E4B000D45CC /* ’uy-diṱema’_eyeglasses.png */; };
+		A59BFD94192D2E4B000D45CC /* ditsiya_bone_awl.png in Resources */ = {isa = PBXBuildFile; fileRef = A59BFD8D192D2E4B000D45CC /* ditsiya_bone_awl.png */; };
+		A59BFD95192D2E4B000D45CC /* ho_fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59BFD8E192D2E4B000D45CC /* ho_fire.jpg */; };
+		A59BFD96192D2E4B000D45CC /* kal_bead.png in Resources */ = {isa = PBXBuildFile; fileRef = A59BFD8F192D2E4B000D45CC /* kal_bead.png */; };
+		A59BFD97192D2E4B000D45CC /* libuu_whistle.png in Resources */ = {isa = PBXBuildFile; fileRef = A59BFD90192D2E4B000D45CC /* libuu_whistle.png */; };
+		A59BFD98192D2E4B000D45CC /* si'ka_baby_basket.png in Resources */ = {isa = PBXBuildFile; fileRef = A59BFD91192D2E4B000D45CC /* si'ka_baby_basket.png */; };
+		A59BFD9A192D30CF000D45CC /* kidi_cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59BFD99192D30CF000D45CC /* kidi_cat.jpg */; };
+		A59BFD9C192D3100000D45CC /* ts'iya_red_tailed_hawk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59BFD9B192D3100000D45CC /* ts'iya_red_tailed_hawk.jpg */; };
+		A59BFDA0192D312E000D45CC /* maayish_corn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59BFD9F192D312E000D45CC /* maayish_corn.jpg */; };
+		A59BFDA2192D3153000D45CC /* shats'on_quilt.png in Resources */ = {isa = PBXBuildFile; fileRef = A59BFDA1192D3153000D45CC /* shats'on_quilt.png */; };
+		A59BFDB8192D3255000D45CC /* dashoya_young_woman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59BFDB7192D3255000D45CC /* dashoya_young_woman.jpg */; };
+		A59BFDBA192D326B000D45CC /* maaTa_woman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A59BFDB9192D326B000D45CC /* maaTa_woman.jpg */; };
+		A59BFDBC192D35A4000D45CC /* aamiki_my_older_brother.png in Resources */ = {isa = PBXBuildFile; fileRef = A59BFDBB192D35A4000D45CC /* aamiki_my_older_brother.png */; };
+		A59BFDC2192E9E25000D45CC /* ts'uu_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A59BFDC1192E9E25000D45CC /* ts'uu_arrow.png */; };
+		A59BFDC3192EA46C000D45CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03986D8C1908279300CCC87F /* Images.xcassets */; };
+		A5AA6970194637D9005690C9 /* dictionaryUpdate2.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5AA696F194637D9005690C9 /* dictionaryUpdate2.plist */; };
+		A5AA698519463823005690C9 /* arrowhead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697119463823005690C9 /* arrowhead.jpg */; };
+		A5AA698619463823005690C9 /* new_ant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697219463823005690C9 /* new_ant.jpg */; };
+		A5AA698719463823005690C9 /* new_bed.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697319463823005690C9 /* new_bed.png */; };
+		A5AA698819463823005690C9 /* new_cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697419463823005690C9 /* new_cat.jpg */; };
+		A5AA698919463823005690C9 /* new_chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697519463823005690C9 /* new_chicken.jpg */; };
+		A5AA698A19463823005690C9 /* new_corn.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697619463823005690C9 /* new_corn.png */; };
+		A5AA698B19463823005690C9 /* new_cornbread.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697719463823005690C9 /* new_cornbread.png */; };
+		A5AA698C19463823005690C9 /* new_fir_tree.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697819463823005690C9 /* new_fir_tree.png */; };
+		A5AA698D19463823005690C9 /* new_fish.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697919463823005690C9 /* new_fish.png */; };
+		A5AA698E19463823005690C9 /* new_hill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697A19463823005690C9 /* new_hill.jpg */; };
+		A5AA698F19463823005690C9 /* new_potter_valley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697B19463823005690C9 /* new_potter_valley.jpg */; };
+		A5AA699019463823005690C9 /* new_river.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697C19463823005690C9 /* new_river.jpg */; };
+		A5AA699119463823005690C9 /* new_rocks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697D19463823005690C9 /* new_rocks.jpg */; };
+		A5AA699219463823005690C9 /* new_seaweed.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697E19463823005690C9 /* new_seaweed.png */; };
+		A5AA699319463823005690C9 /* new_sherwood.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AA697F19463823005690C9 /* new_sherwood.png */; };
+		A5AA699419463823005690C9 /* new_tortilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA698019463823005690C9 /* new_tortilla.jpg */; };
+		A5AA699519463823005690C9 /* new_ukiah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA698119463823005690C9 /* new_ukiah.jpg */; };
+		A5AA699619463823005690C9 /* new_water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA698219463823005690C9 /* new_water.jpg */; };
+		A5AA699719463823005690C9 /* new_white_bread.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AA698319463823005690C9 /* new_white_bread.png */; };
+		A5AA699819463823005690C9 /* whistle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA698419463823005690C9 /* whistle.jpg */; };
+		A5AA699A19464343005690C9 /* coyote_valley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5AA699919464343005690C9 /* coyote_valley.jpg */; };
+		A5C0849319ACF7D200E83966 /* PDCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C0849219ACF7D200E83966 /* PDCategoryViewController.xib */; };
+		A5C0849519AFA21700E83966 /* PDDictionaryGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C0849419AFA21700E83966 /* PDDictionaryGridViewController.xib */; };
+		A5C0849719AFA2B200E83966 /* PDWordCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C0849619AFA2B200E83966 /* PDWordCollectionViewCell.xib */; };
+		A5C0849C19AFC55700E83966 /* PDAnimalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C0849B19AFC55700E83966 /* PDAnimalsViewController.xib */; };
+		A5C0849E19AFC56800E83966 /* PDFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C0849D19AFC56800E83966 /* PDFoodViewController.xib */; };
+		A5C084A019AFC57700E83966 /* PDHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C0849F19AFC57700E83966 /* PDHomeViewController.xib */; };
+		A5C084A219AFC58E00E83966 /* PDPlantsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C084A119AFC58E00E83966 /* PDPlantsViewController.xib */; };
+		A5C084A419AFC59D00E83966 /* PDPeopleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C084A319AFC59D00E83966 /* PDPeopleViewController.xib */; };
+		A5C084A619AFC5AA00E83966 /* PDPlacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C084A519AFC5AA00E83966 /* PDPlacesViewController.xib */; };
+		A5C084AA19AFC5CB00E83966 /* PDTraditionalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C084A919AFC5CB00E83966 /* PDTraditionalViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03986D971908279300CCC87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03986D631908279300CCC87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03986D6A1908279300CCC87F;
+			remoteInfo = PomoDictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0324254D190D67000077EB3E /* dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dictionary.plist; sourceTree = "<group>"; };
+		0324254F190D6D540077EB3E /* PDWordCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDWordCollectionViewCell.h; path = Views/PDWordCollectionViewCell.h; sourceTree = "<group>"; };
+		03242550190D6D540077EB3E /* PDWordCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDWordCollectionViewCell.m; path = Views/PDWordCollectionViewCell.m; sourceTree = "<group>"; };
+		03242553190D6D6F0077EB3E /* PDWordCollectionViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "PDWordCollectionViewCell~ipad.xib"; path = "Views/PDWordCollectionViewCell~ipad.xib"; sourceTree = "<group>"; };
+		03986D6B1908279300CCC87F /* PomoDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03986D6E1908279300CCC87F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03986D701908279300CCC87F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03986D721908279300CCC87F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03986D761908279300CCC87F /* PomoDictionary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PomoDictionary-Info.plist"; sourceTree = "<group>"; };
+		03986D781908279300CCC87F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03986D7A1908279300CCC87F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03986D7C1908279300CCC87F /* PomoDictionary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PomoDictionary-Prefix.pch"; sourceTree = "<group>"; };
+		03986D7D1908279300CCC87F /* PDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDAppDelegate.h; sourceTree = "<group>"; };
+		03986D7E1908279300CCC87F /* PDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDAppDelegate.m; sourceTree = "<group>"; };
+		03986D8C1908279300CCC87F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03986D921908279300CCC87F /* PomoDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03986D931908279300CCC87F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03986D9B1908279300CCC87F /* PomoDictionaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PomoDictionaryTests-Info.plist"; sourceTree = "<group>"; };
+		03986D9D1908279300CCC87F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03986D9F1908279300CCC87F /* PomoDictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PomoDictionaryTests.m; sourceTree = "<group>"; };
+		03986DAE1908294100CCC87F /* PDDictionaryGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDDictionaryGridViewController.h; path = "View Controllers/PDDictionaryGridViewController.h"; sourceTree = "<group>"; };
+		03986DAF1908294100CCC87F /* PDDictionaryGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDDictionaryGridViewController.m; path = "View Controllers/PDDictionaryGridViewController.m"; sourceTree = "<group>"; };
+		03986DB01908294100CCC87F /* PDDictionaryGridViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "PDDictionaryGridViewController~ipad.xib"; path = "View Controllers/PDDictionaryGridViewController~ipad.xib"; sourceTree = "<group>"; };
+		A5160FC7194F5FAD0068D67B /* PDHomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDHomeScreenViewController.h; sourceTree = "<group>"; };
+		A5160FC8194F5FAD0068D67B /* PDHomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDHomeScreenViewController.m; sourceTree = "<group>"; };
+		A5160FC9194F5FAD0068D67B /* PDHomeScreenViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PDHomeScreenViewController~ipad.xib"; sourceTree = "<group>"; };
+		A5160FCC194F626E0068D67B /* home page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home page.png"; sourceTree = "<group>"; };
+		A5160FD8194F78A00068D67B /* PDCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCategoryViewController.h; sourceTree = "<group>"; };
+		A5160FD9194F78A00068D67B /* PDCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCategoryViewController.m; sourceTree = "<group>"; };
+		A5160FDA194F78A00068D67B /* PDCategoryViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PDCategoryViewController~ipad.xib"; sourceTree = "<group>"; };
+		A5160FDD194F7EA90068D67B /* all.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = all.jpg; sourceTree = "<group>"; };
+		A5160FDE194F7EA90068D67B /* animals.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animals.jpg; sourceTree = "<group>"; };
+		A5160FDF194F7EA90068D67B /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
+		A5160FE0194F7EA90068D67B /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
+		A5160FE1194F7EA90068D67B /* nature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nature.jpg; sourceTree = "<group>"; };
+		A5160FE2194F7EA90068D67B /* people.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = people.jpg; sourceTree = "<group>"; };
+		A5160FE3194F7EA90068D67B /* places.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = places.jpg; sourceTree = "<group>"; };
+		A5160FE4194F7EA90068D67B /* traditional.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = traditional.jpg; sourceTree = "<group>"; };
+		A5160FED19508A7D0068D67B /* Screen Shot 2014-06-17 at 10.38.00 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-06-17 at 10.38.00 AM.png"; sourceTree = "<group>"; };
+		A5160FF01950B7E50068D67B /* PDAnimalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDAnimalsViewController.h; sourceTree = "<group>"; };
+		A5160FF11950B7E50068D67B /* PDAnimalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDAnimalsViewController.m; sourceTree = "<group>"; };
+		A5160FF21950B7E50068D67B /* PDAnimalsViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PDAnimalsViewController~ipad.xib"; sourceTree = "<group>"; };
+		A5160FF51950B7FC0068D67B /* PDFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFoodViewController.h; sourceTree = "<group>"; };
+		A5160FF61950B7FC0068D67B /* PDFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFoodViewController.m; sourceTree = "<group>"; };
+		A5160FF71950B7FC0068D67B /* PDFoodViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PDFoodViewController~ipad.xib"; sourceTree = "<group>"; };
+		A5160FFA1950B8090068D67B /* PDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDHomeViewController.h; sourceTree = "<group>"; };
+		A5160FFB1950B8090068D67B /* PDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDHomeViewController.m; sourceTree = "<group>"; };
+		A5160FFC1950B8090068D67B /* PDHomeViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PDHomeViewController~ipad.xib"; sourceTree = "<group>"; };
+		A5160FFF1950B9E70068D67B /* PDPlantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDPlantsViewController.h; sourceTree = "<group>"; };
+		A51610001950B9E70068D67B /* PDPlantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDPlantsViewController.m; sourceTree = "<group>"; };
+		A51610011950B9E70068D67B /* PDPlantsViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PDPlantsViewController~ipad.xib"; sourceTree = "<group>"; };
+		A51610041950BA000068D67B /* PDPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDPeopleViewController.h; sourceTree = "<group>"; };
+		A51610051950BA000068D67B /* PDPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDPeopleViewController.m; sourceTree = "<group>"; };
+		A51610061950BA000068D67B /* PDPeopleViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PDPeopleViewController~ipad.xib"; sourceTree = "<group>"; };
+		A51610091950BA120068D67B /* PDPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDPlacesViewController.h; sourceTree = "<group>"; };
+		A516100A1950BA120068D67B /* PDPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDPlacesViewController.m; sourceTree = "<group>"; };
+		A516100B1950BA120068D67B /* PDPlacesViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PDPlacesViewController~ipad.xib"; sourceTree = "<group>"; };
+		A516100E1950BA210068D67B /* PDTraditionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTraditionalViewController.h; sourceTree = "<group>"; };
+		A516100F1950BA210068D67B /* PDTraditionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTraditionalViewController.m; sourceTree = "<group>"; };
+		A51610101950BA210068D67B /* PDTraditionalViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PDTraditionalViewController~ipad.xib"; sourceTree = "<group>"; };
+		A51610131950BDBE0068D67B /* animals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = animals.plist; sourceTree = "<group>"; };
+		A51610151950BE8E0068D67B /* traditional.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = traditional.plist; sourceTree = "<group>"; };
+		A51610181950C41F0068D67B /* food.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = food.plist; sourceTree = "<group>"; };
+		A516101A1950C4270068D67B /* home.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = home.plist; sourceTree = "<group>"; };
+		A516101C1950C42E0068D67B /* nature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nature.plist; sourceTree = "<group>"; };
+		A516101E1950C4420068D67B /* people.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = people.plist; sourceTree = "<group>"; };
+		A51610201950C44A0068D67B /* places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = places.plist; sourceTree = "<group>"; };
+		A51610221951F8EA0068D67B /* PDContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDContactViewController.h; sourceTree = "<group>"; };
+		A51610231951F8EA0068D67B /* PDContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDContactViewController.m; sourceTree = "<group>"; };
+		A51610241951F8EA0068D67B /* PDContactViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PDContactViewController~ipad.xib"; sourceTree = "<group>"; };
+		A544304219BA19D800309E91 /* PDAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDAboutViewController.xib; sourceTree = "<group>"; };
+		A544304419BA19E700309E91 /* PDContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDContactViewController.xib; sourceTree = "<group>"; };
+		A549C6C51952295700A1AC73 /* new_acorn_mush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_acorn_mush.png; sourceTree = "<group>"; };
+		A5568F271953306400CA4B38 /* PDHomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDHomeScreenViewController.xib; sourceTree = "<group>"; };
+		A56E1446194F30E400BAC46A /* new_sedge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_sedge.png; sourceTree = "<group>"; };
+		A56E1447194F30E400BAC46A /* new_pinole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_pinole.png; sourceTree = "<group>"; };
+		A592E93A19254D520017A3C7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A59429611908302A000DF532 /* PDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDAboutViewController.h; path = "View Controllers/PDAboutViewController.h"; sourceTree = "<group>"; };
+		A59429621908302A000DF532 /* PDAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDAboutViewController.m; path = "View Controllers/PDAboutViewController.m"; sourceTree = "<group>"; };
+		A59429631908302A000DF532 /* PDAboutViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "PDAboutViewController~ipad.xib"; path = "View Controllers/PDAboutViewController~ipad.xib"; sourceTree = "<group>"; };
+		A594296619083ECC000DF532 /* PDWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDWord.h; sourceTree = "<group>"; };
+		A594296719083ECC000DF532 /* PDWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDWord.m; sourceTree = "<group>"; };
+		A5942969190845BC000DF532 /* PDWordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDWordTableViewController.h; sourceTree = "<group>"; };
+		A594296A190845BC000DF532 /* PDWordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDWordTableViewController.m; sourceTree = "<group>"; };
+		A597BFBA195DCFAA009E41EA /* aa_mie_my_father.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aa_mie_my_father.mp3; sourceTree = "<group>"; };
+		A597BFBB195DCFAA009E41EA /* aa_miphane_my_daughter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aa_miphane_my_daughter.mp3; sourceTree = "<group>"; };
+		A597BFBC195DCFAA009E41EA /* aa_mithe_my_mother.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aa_mithe_my_mother.mp3; sourceTree = "<group>"; };
+		A597BFBD195DCFAA009E41EA /* aamibahan_my_husband.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aamibahan_my_husband.mp3; sourceTree = "<group>"; };
+		A597BFBE195DCFAA009E41EA /* aamidahan_my_wife.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aamidahan_my_wife.mp3; sourceTree = "<group>"; };
+		A597BFBF195DCFAA009E41EA /* aamiki_my_older_brother.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aamiki_my_older_brother.mp3; sourceTree = "<group>"; };
+		A597BFC0195DCFAA009E41EA /* aamitiy_my_younger_sister.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aamitiy_my_younger_sister.mp3; sourceTree = "<group>"; };
+		A597BFC1195DCFAA009E41EA /* aamitsu_my_uncle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aamitsu_my_uncle.mp3; sourceTree = "<group>"; };
+		A597BFC3195DCFAA009E41EA /* bishe_deer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bishe_deer.mp3; sourceTree = "<group>"; };
+		A597BFC4195DCFAA009E41EA /* bitaa_bear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bitaa_bear.mp3; sourceTree = "<group>"; };
+		A597BFC5195DCFAA009E41EA /* bitumtu_ant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bitumtu_ant.mp3; sourceTree = "<group>"; };
+		A597BFC6195DCFAA009E41EA /* bow_west.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bow_west.mp3; sourceTree = "<group>"; };
+		A597BFC7195DCFAA009E41EA /* busa_yem_old_man.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = busa_yem_old_man.mp3; sourceTree = "<group>"; };
+		A597BFC8195DCFAA009E41EA /* chuhula_north.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chuhula_north.mp3; sourceTree = "<group>"; };
+		A597BFC9195DCFAA009E41EA /* dano_hill_mountain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dano_hill_mountain.mp3; sourceTree = "<group>"; };
+		A597BFCA195DCFAA009E41EA /* dashoya_young_woman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dashoya_young_woman.mp3; sourceTree = "<group>"; };
+		A597BFCB195DCFAA009E41EA /* datha_yem_old_woman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = datha_yem_old_woman.mp3; sourceTree = "<group>"; };
+		A597BFCC195DCFAA009E41EA /* dishiy_black_oak_acorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dishiy_black_oak_acorn.mp3; sourceTree = "<group>"; };
+		A597BFCD195DCFAA009E41EA /* dishiy_xale_black_oak_tree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dishiy_xale_black_oak_tree.mp3; sourceTree = "<group>"; };
+		A597BFCE195DCFAA009E41EA /* ditsiya_bone_awl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ditsiya_bone_awl.mp3; sourceTree = "<group>"; };
+		A597BFCF195DCFAA009E41EA /* diwi_coyote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diwi_coyote.mp3; sourceTree = "<group>"; };
+		A597BFD0195DCFAA009E41EA /* gayna_chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gayna_chicken.mp3; sourceTree = "<group>"; };
+		A597BFD1195DCFAA009E41EA /* gayna_roast_chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gayna_roast_chicken.mp3; sourceTree = "<group>"; };
+		A597BFD2195DCFAA009E41EA /* hayphoma_sherwood_laytonville.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hayphoma_sherwood_laytonville.mp3; sourceTree = "<group>"; };
+		A597BFD3195DCFAA009E41EA /* hayu_dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hayu_dog.mp3; sourceTree = "<group>"; };
+		A597BFD4195DCFAA009E41EA /* ho_fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ho_fire.mp3; sourceTree = "<group>"; };
+		A597BFD5195DCFAA009E41EA /* ih_feather.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ih_feather.mp3; sourceTree = "<group>"; };
+		A597BFD6195DCFAA009E41EA /* iihol_beans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iihol_beans.mp3; sourceTree = "<group>"; };
+		A597BFD7195DCFAA009E41EA /* ja_house.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ja_house.mp3; sourceTree = "<group>"; };
+		A597BFD9195DCFAA009E41EA /* jishil_meadowlark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jishil_meadowlark.mp3; sourceTree = "<group>"; };
+		A597BFDA195DCFAA009E41EA /* jom_xale_grey_pine_tree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jom_xale_grey_pine_tree.mp3; sourceTree = "<group>"; };
+		A597BFDB195DCFAA009E41EA /* kabay_onions.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kabay_onions.mp3; sourceTree = "<group>"; };
+		A597BFDC195DCFAA009E41EA /* kaday_gambling_sticks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kaday_gambling_sticks.mp3; sourceTree = "<group>"; };
+		A597BFDD195DCFAA009E41EA /* kal_bead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kal_bead.mp3; sourceTree = "<group>"; };
+		A597BFDE195DCFAA009E41EA /* kasil_xale_redwood_tree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kasil_xale_redwood_tree.mp3; sourceTree = "<group>"; };
+		A597BFDF195DCFAA009E41EA /* khe_kawiyabah_my_son.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = khe_kawiyabah_my_son.mp3; sourceTree = "<group>"; };
+		A597BFE0195DCFAA009E41EA /* kuhum_white_sedge_root.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kuhum_white_sedge_root.mp3; sourceTree = "<group>"; };
+		A597BFE1195DCFAA009E41EA /* libuu_whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = libuu_whistle.mp3; sourceTree = "<group>"; };
+		A597BFE2195DCFAA009E41EA /* maata_woman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maata_woman.mp3; sourceTree = "<group>"; };
+		A597BFE3195DCFAA009E41EA /* maayish_corn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maayish_corn.mp3; sourceTree = "<group>"; };
+		A597BFE4195DCFAA009E41EA /* maayish_jinii_cornbread.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maayish_jinii_cornbread.mp3; sourceTree = "<group>"; };
+		A597BFE5195DCFAA009E41EA /* masan_jinii_white_bread.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = masan_jinii_white_bread.mp3; sourceTree = "<group>"; };
+		A597BFE6195DCFAA009E41EA /* millee_redbud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = millee_redbud.mp3; sourceTree = "<group>"; };
+		A597BFE7195DCFAA009E41EA /* misaxala_snake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = misaxala_snake.mp3; sourceTree = "<group>"; };
+		A597BFE8195DCFAA009E41EA /* mishin_car.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mishin_car.mp3; sourceTree = "<group>"; };
+		A597BFE9195DCFAA009E41EA /* mithaa_sun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mithaa_sun.mp3; sourceTree = "<group>"; };
+		A597BFEA195DCFAA009E41EA /* mithuulu_lizard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mithuulu_lizard.mp3; sourceTree = "<group>"; };
+		A597BFEB195DCFAA009E41EA /* phika_basket.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = phika_basket.mp3; sourceTree = "<group>"; };
+		A597BFEC195DCFAA009E41EA /* philus_tornado.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = philus_tornado.mp3; sourceTree = "<group>"; };
+		A597BFED195DCFAA009E41EA /* phitam_flower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = phitam_flower.mp3; sourceTree = "<group>"; };
+		A597BFEE195DCFAA009E41EA /* phut_fog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = phut_fog.mp3; sourceTree = "<group>"; };
+		A597BFEF195DCFAA009E41EA /* sha_fish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sha_fish.mp3; sourceTree = "<group>"; };
+		A597BFF0195DCFAA009E41EA /* shakaaka_valley_quail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shakaaka_valley_quail.mp3; sourceTree = "<group>"; };
+		A597BFF1195DCFAA009E41EA /* shakoodo_rabbit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shakoodo_rabbit.mp3; sourceTree = "<group>"; };
+		A597BFF2195DCFAA009E41EA /* shatson_quilt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shatson_quilt.mp3; sourceTree = "<group>"; };
+		A597BFF3195DCFAA009E41EA /* show_east.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = show_east.mp3; sourceTree = "<group>"; };
+		A597BFF4195DCFAA009E41EA /* showdaxay_coyote_valley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = showdaxay_coyote_valley.mp3; sourceTree = "<group>"; };
+		A597BFF5195DCFAA009E41EA /* sika_baby_basket.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sika_baby_basket.mp3; sourceTree = "<group>"; };
+		A597BFF6195DCFAA009E41EA /* so_clover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = so_clover.mp3; sourceTree = "<group>"; };
+		A597BFF7195DCFAA009E41EA /* them_abalone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = them_abalone.mp3; sourceTree = "<group>"; };
+		A597BFF8195DCFAA009E41EA /* them_kata_abalone_shell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = them_kata_abalone_shell.mp3; sourceTree = "<group>"; };
+		A597BFF9195DCFAA009E41EA /* thonuk_seaweed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thonuk_seaweed.mp3; sourceTree = "<group>"; };
+		A597BFFA195DCFAA009E41EA /* thooo_acorn_mush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thooo_acorn_mush.mp3; sourceTree = "<group>"; };
+		A597BFFB195DCFAA009E41EA /* tibee_tule.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tibee_tule.mp3; sourceTree = "<group>"; };
+		A597BFFC195DCFAA009E41EA /* tik_string.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tik_string.mp3; sourceTree = "<group>"; };
+		A597BFFD195DCFAA009E41EA /* toltiya_tortilla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = toltiya_tortilla.mp3; sourceTree = "<group>"; };
+		A597BFFE195DCFAA009E41EA /* tsiwish_black_root.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tsiwish_black_root.mp3; sourceTree = "<group>"; };
+		A597BFFF195DCFAA009E41EA /* tsiya_red_tailed_hawk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tsiya_red_tailed_hawk.mp3; sourceTree = "<group>"; };
+		A597C000195DCFAA009E41EA /* tsuu_arrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tsuu_arrow.mp3; sourceTree = "<group>"; };
+		A597C001195DCFAA009E41EA /* uy_di_ema_eyeglasses.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uy_di_ema_eyeglasses.mp3; sourceTree = "<group>"; };
+		A597C002195DCFAA009E41EA /* xa_water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xa_water.mp3; sourceTree = "<group>"; };
+		A597C003195DCFAA009E41EA /* xabaa_cloud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xabaa_cloud.mp3; sourceTree = "<group>"; };
+		A597C004195DCFAA009E41EA /* xabe_rock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xabe_rock.mp3; sourceTree = "<group>"; };
+		A597C005195DCFAA009E41EA /* xabeda_river.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xabeda_river.mp3; sourceTree = "<group>"; };
+		A597C006195DCFAA009E41EA /* xadalom_cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xadalom_cat.mp3; sourceTree = "<group>"; };
+		A597C007195DCFAA009E41EA /* xaja_kujiya_flint_knife.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xaja_kujiya_flint_knife.mp3; sourceTree = "<group>"; };
+		A597C008195DCFAA009E41EA /* xal_mussels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xal_mussels.mp3; sourceTree = "<group>"; };
+		A597C009195DCFAA009E41EA /* xalal_willow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xalal_willow.mp3; sourceTree = "<group>"; };
+		A597C00A195DCFAA009E41EA /* xashapomitin_lake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xashapomitin_lake.mp3; sourceTree = "<group>"; };
+		A597C00B195DCFAA009E41EA /* xati_bed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xati_bed.mp3; sourceTree = "<group>"; };
+		A597C00C195DCFAA009E41EA /* xawaa_xale_fir_tree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xawaa_xale_fir_tree.mp3; sourceTree = "<group>"; };
+		A597C00D195DCFAA009E41EA /* yoow_south.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yoow_south.mp3; sourceTree = "<group>"; };
+		A597C00E195DCFAA009E41EA /* yowsha_salmon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yowsha_salmon.mp3; sourceTree = "<group>"; };
+		A597C00F195DCFAA009E41EA /* yoxayamaa_ukiah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yoxayamaa_ukiah.mp3; sourceTree = "<group>"; };
+		A597C010195DCFAA009E41EA /* yuhuu_pinole.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yuhuu_pinole.mp3; sourceTree = "<group>"; };
+		A597C068195DEAC2009E41EA /* butterfly_uytoktok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = butterfly_uytoktok.jpg; sourceTree = "<group>"; };
+		A597C06A195DEB57009E41EA /* butterfly_uytoktok2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = butterfly_uytoktok2.mp3; sourceTree = "<group>"; };
+		A597C06C195DEC89009E41EA /* bitumtu_ant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bitumtu_ant.jpg; sourceTree = "<group>"; };
+		A597C06E195DF4AF009E41EA /* dog_hayu2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog_hayu2.mp3; sourceTree = "<group>"; };
+		A597C070195DF4BD009E41EA /* fish.sha2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fish.sha2.mp3; sourceTree = "<group>"; };
+		A597C072195DF4D3009E41EA /* beans.iihol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beans.iihol.mp3; sourceTree = "<group>"; };
+		A597C074195DF4DD009E41EA /* seaweed.tonuk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seaweed.tonuk.mp3; sourceTree = "<group>"; };
+		A597C076195DF4EE009E41EA /* maata_woman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maata_woman.mp3; sourceTree = "<group>"; };
+		A597C078195DF508009E41EA /* CoyoteValley.showdaxay2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoyoteValley.showdaxay2.mp3; sourceTree = "<group>"; };
+		A597C07A195DF538009E41EA /* baloxay_Potter_Valley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baloxay_Potter_Valley.mp3; sourceTree = "<group>"; };
+		A597C07C195DF564009E41EA /* water.xa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.xa.mp3; sourceTree = "<group>"; };
+		A597C07E195DF841009E41EA /* baloxay_potter_valley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baloxay_potter_valley.mp3; sourceTree = "<group>"; };
+		A597C0801961D38E009E41EA /* them_kata_abalone_shell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = them_kata_abalone_shell.jpg; sourceTree = "<group>"; };
+		A597C0821961D3FD009E41EA /* ka'day_gambling_sticks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ka'day_gambling_sticks.png"; sourceTree = "<group>"; };
+		A597C0841961D410009E41EA /* mishin_car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mishin_car.png; sourceTree = "<group>"; };
+		A597C0861961D41F009E41EA /* t'ik'_string.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "t'ik'_string.jpg"; sourceTree = "<group>"; };
+		A597C0881961D43D009E41EA /* phut'_fog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "phut'_fog.jpg"; sourceTree = "<group>"; };
+		A597C08A1961D447009E41EA /* kasil_xale_redwood_tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kasil_xale_redwood_tree.jpg; sourceTree = "<group>"; };
+		A597C08C1961D451009E41EA /* mith'aa_sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mith'aa_sun.jpg"; sourceTree = "<group>"; };
+		A597C08E1961D45D009E41EA /* philus_tornado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = philus_tornado.jpg; sourceTree = "<group>"; };
+		A597C0901961D46A009E41EA /* tibee_tule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tibee_tule.jpg; sourceTree = "<group>"; };
+		A597C0921961D479009E41EA /* 'aa-miphane_my_daughter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "'aa-miphane_my_daughter.png"; sourceTree = "<group>"; };
+		A597C0941961D485009E41EA /* 'aa-mi'e_my_father.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "'aa-mi'e_my_father.png"; sourceTree = "<group>"; };
+		A597C0961961D48F009E41EA /* 'aamibahan_my_husband.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "'aamibahan_my_husband.png"; sourceTree = "<group>"; };
+		A597C0981961D49A009E41EA /* 'aa-mithe_my_mother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "'aa-mithe_my_mother.png"; sourceTree = "<group>"; };
+		A597C09A1961D4A7009E41EA /* khe_kawiyabah_my_son.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = khe_kawiyabah_my_son.png; sourceTree = "<group>"; };
+		A597C09C1961D4B5009E41EA /* 'aamidahan_my_wife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "'aamidahan_my_wife.png"; sourceTree = "<group>"; };
+		A597C09E1961D4C0009E41EA /* 'aamit'iy_my_younger_sister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "'aamit'iy_my_younger_sister.png"; sourceTree = "<group>"; };
+		A597C0A21961D506009E41EA /* datha_yem_old_woman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = datha_yem_old_woman.jpg; sourceTree = "<group>"; };
+		A597C0A41961D511009E41EA /* chuhula_north.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chuhula_north.png; sourceTree = "<group>"; };
+		A597C0A61961D55E009E41EA /* busa_yem_old_man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = busa_yem_old_man.jpg; sourceTree = "<group>"; };
+		A597C0A81961D566009E41EA /* yoow_south.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yoow_south.png; sourceTree = "<group>"; };
+		A597C0AA1961D56D009E41EA /* show_east.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show_east.png; sourceTree = "<group>"; };
+		A597C0AC1961D7D5009E41EA /* boow_west.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boow_west.png; sourceTree = "<group>"; };
+		A597C0AE1961DD61009E41EA /* old_man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = old_man.jpg; sourceTree = "<group>"; };
+		A599159D1909EB8600B1AE8E /* PDWordDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDWordDetailViewController.h; sourceTree = "<group>"; };
+		A599159E1909EB8600B1AE8E /* PDWordDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDWordDetailViewController.m; sourceTree = "<group>"; };
+		A599159F1909EB8600B1AE8E /* PDWordDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDWordDetailViewController.xib; sourceTree = "<group>"; };
+		A59915A21909EF1600B1AE8E /* PDWordDetailViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PDWordDetailViewController~ipad.xib"; sourceTree = "<group>"; };
+		A59915A4190AAA2E00B1AE8E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A59915B0190D611100B1AE8E /* Edna3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Edna3.png; sourceTree = "<group>"; };
+		A59915B1190D611100B1AE8E /* Elenor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Elenor.png; sourceTree = "<group>"; };
+		A59915B2190D611100B1AE8E /* balo'xay_Potter_Valley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balo'xay_Potter_Valley.png"; sourceTree = "<group>"; };
+		A59915B3190D611100B1AE8E /* dano_hill_mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dano_hill_mountain.jpg; sourceTree = "<group>"; };
+		A59915B5190D611100B1AE8E /* dishiy_xale_black_oak_tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dishiy_xale_black_oak_tree.jpg; sourceTree = "<group>"; };
+		A59915B6190D611100B1AE8E /* gayna'_chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gayna'_chicken.jpg"; sourceTree = "<group>"; };
+		A59915B7190D611100B1AE8E /* iihol'_beans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iihol'_beans.jpg"; sourceTree = "<group>"; };
+		A59915B8190D611100B1AE8E /* ja_house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ja_house.png; sourceTree = "<group>"; };
+		A59915B9190D611100B1AE8E /* jom_xale_grey_pine_tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jom_xale_grey_pine_tree.jpg; sourceTree = "<group>"; };
+		A59915BA190D611100B1AE8E /* k'abay_onions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "k'abay_onions.jpg"; sourceTree = "<group>"; };
+		A59915BB190D611100B1AE8E /* k'uhum_white_sedge_root.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "k'uhum_white_sedge_root.jpg"; sourceTree = "<group>"; };
+		A59915BC190D611100B1AE8E /* maayish_jinii_cornbread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maayish_jinii_cornbread.png; sourceTree = "<group>"; };
+		A59915BD190D611100B1AE8E /* phit'am_flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "phit'am_flower.jpg"; sourceTree = "<group>"; };
+		A59915BE190D611200B1AE8E /* so_clover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = so_clover.jpg; sourceTree = "<group>"; };
+		A59915BF190D611200B1AE8E /* them_abalone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = them_abalone.jpg; sourceTree = "<group>"; };
+		A59915C0190D611200B1AE8E /* thonuk_seaweed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thonuk_seaweed.png; sourceTree = "<group>"; };
+		A59915C1190D611200B1AE8E /* tortilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tortilla.png; sourceTree = "<group>"; };
+		A59915C2190D611200B1AE8E /* ts'iwish_black_root.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ts'iwish_black_root.jpg"; sourceTree = "<group>"; };
+		A59915C3190D611200B1AE8E /* xa_water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xa_water.png; sourceTree = "<group>"; };
+		A59915C4190D611200B1AE8E /* xabeda_river.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xabeda_river.jpg; sourceTree = "<group>"; };
+		A59915C5190D611200B1AE8E /* xal_mussels.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xal_mussels.jpg; sourceTree = "<group>"; };
+		A59915C6190D611200B1AE8E /* xalal_willow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xalal_willow.jpg; sourceTree = "<group>"; };
+		A59915C7190D611200B1AE8E /* xashapomitin_lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xashapomitin_lake.jpg; sourceTree = "<group>"; };
+		A59915C8190D611200B1AE8E /* yuhuu_pinole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuhuu_pinole.png; sourceTree = "<group>"; };
+		A59B039F1912D11F0053B4D8 /* original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original.png; sourceTree = "<group>"; };
+		A59B03A11912D2950053B4D8 /* photo-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-frame@2x.png"; path = "about page images/photo-frame@2x.png"; sourceTree = "<group>"; };
+		A59B03A31912DA010053B4D8 /* bishe_deer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bishe_deer.jpg; sourceTree = "<group>"; };
+		A59B03A51912DA010053B4D8 /* bitaa_bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bitaa_bear.jpg; sourceTree = "<group>"; };
+		A59B03A61912DA010053B4D8 /* gayna'_roast_chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gayna'_roast_chicken.jpg"; sourceTree = "<group>"; };
+		A59B03A71912DA010053B4D8 /* hayu_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hayu_dog.png; sourceTree = "<group>"; };
+		A59B03A81912DA010053B4D8 /* millee_redbud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = millee_redbud.png; sourceTree = "<group>"; };
+		A59B03A91912DA010053B4D8 /* phik'a_basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phik'a_basket.png"; sourceTree = "<group>"; };
+		A59B03AA1912DA010053B4D8 /* xabaa_cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xabaa_cloud.png; sourceTree = "<group>"; };
+		A59B03AB1912DA010053B4D8 /* xabe_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xabe_rock.png; sourceTree = "<group>"; };
+		A59B03AC1912DA010053B4D8 /* xaja_kujiya_flint_knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xaja_kujiya_flint_knife.png; sourceTree = "<group>"; };
+		A59B03AD1912DA010053B4D8 /* xawaa_xale_fir_tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xawaa_xale_fir_tree.jpg; sourceTree = "<group>"; };
+		A59B03AE1912DA010053B4D8 /* yowsha_salmon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yowsha_salmon.jpg; sourceTree = "<group>"; };
+		A59B03BB1912DA820053B4D8 /* dishiy_black_oak_acorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dishiy_black_oak_acorn.png; sourceTree = "<group>"; };
+		A59B03BD1912DAF70053B4D8 /* dishiy_black_oak_acorn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dishiy_black_oak_acorn.jpg; sourceTree = "<group>"; };
+		A59B03BF1912DCFA0053B4D8 /* hakaaka_valley_quail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hakaaka_valley_quail.jpg; sourceTree = "<group>"; };
+		A59B04B41912E2D40053B4D8 /* diwi_coyote.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = diwi_coyote.jpg; sourceTree = "<group>"; };
+		A59B04B51912E2D40053B4D8 /* jishil_meadowlark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jishil_meadowlark.jpg; sourceTree = "<group>"; };
+		A59B04B61912E2D40053B4D8 /* misaxala_snake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misaxala_snake.jpg; sourceTree = "<group>"; };
+		A59B04B71912E2D40053B4D8 /* mithuulu_lizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mithuulu_lizard.png; sourceTree = "<group>"; };
+		A59B04B81912E2D40053B4D8 /* shakoodo_rabbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shakoodo_rabbit.jpg; sourceTree = "<group>"; };
+		A59B04B91912E2D40053B4D8 /* shats'on_quilt.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shats'on_quilt.png.png"; sourceTree = "<group>"; };
+		A59BFBD5192A7504000D45CC /* catDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = catDictionary.plist; sourceTree = "<group>"; };
+		A59BFC69192CEEE2000D45CC /* dictionaryUpdate.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dictionaryUpdate.plist; sourceTree = "<group>"; };
+		A59BFD8B192D2E4B000D45CC /* 'ih_feather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "'ih_feather.jpg"; sourceTree = "<group>"; };
+		A59BFD8C192D2E4B000D45CC /* ’uy-diṱema’_eyeglasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "’uy-diṱema’_eyeglasses.png"; sourceTree = "<group>"; };
+		A59BFD8D192D2E4B000D45CC /* ditsiya_bone_awl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ditsiya_bone_awl.png; sourceTree = "<group>"; };
+		A59BFD8E192D2E4B000D45CC /* ho_fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ho_fire.jpg; sourceTree = "<group>"; };
+		A59BFD8F192D2E4B000D45CC /* kal_bead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kal_bead.png; sourceTree = "<group>"; };
+		A59BFD90192D2E4B000D45CC /* libuu_whistle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = libuu_whistle.png; sourceTree = "<group>"; };
+		A59BFD91192D2E4B000D45CC /* si'ka_baby_basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "si'ka_baby_basket.png"; sourceTree = "<group>"; };
+		A59BFD99192D30CF000D45CC /* kidi_cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kidi_cat.jpg; sourceTree = "<group>"; };
+		A59BFD9B192D3100000D45CC /* ts'iya_red_tailed_hawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ts'iya_red_tailed_hawk.jpg"; sourceTree = "<group>"; };
+		A59BFD9D192D3116000D45CC /* dishiy_black_oak_acorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dishiy_black_oak_acorn.png; sourceTree = "<group>"; };
+		A59BFD9F192D312E000D45CC /* maayish_corn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maayish_corn.jpg; sourceTree = "<group>"; };
+		A59BFDA1192D3153000D45CC /* shats'on_quilt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shats'on_quilt.png"; sourceTree = "<group>"; };
+		A59BFDA3192D3177000D45CC /* ho_fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ho_fire.jpg; sourceTree = "<group>"; };
+		A59BFDB3192D3221000D45CC /* aamiki_my_older_brother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aamiki_my_older_brother.png; sourceTree = "<group>"; };
+		A59BFDB5192D3242000D45CC /* busa_yem_old_man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = busa_yem_old_man.jpg; sourceTree = "<group>"; };
+		A59BFDB7192D3255000D45CC /* dashoya_young_woman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dashoya_young_woman.jpg; sourceTree = "<group>"; };
+		A59BFDB9192D326B000D45CC /* maaTa_woman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maaTa_woman.jpg; sourceTree = "<group>"; };
+		A59BFDBB192D35A4000D45CC /* aamiki_my_older_brother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aamiki_my_older_brother.png; sourceTree = "<group>"; };
+		A59BFDC1192E9E25000D45CC /* ts'uu_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ts'uu_arrow.png"; sourceTree = "<group>"; };
+		A5AA696F194637D9005690C9 /* dictionaryUpdate2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dictionaryUpdate2.plist; sourceTree = "<group>"; };
+		A5AA697119463823005690C9 /* arrowhead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arrowhead.jpg; sourceTree = "<group>"; };
+		A5AA697219463823005690C9 /* new_ant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_ant.jpg; sourceTree = "<group>"; };
+		A5AA697319463823005690C9 /* new_bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_bed.png; sourceTree = "<group>"; };
+		A5AA697419463823005690C9 /* new_cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_cat.jpg; sourceTree = "<group>"; };
+		A5AA697519463823005690C9 /* new_chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_chicken.jpg; sourceTree = "<group>"; };
+		A5AA697619463823005690C9 /* new_corn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_corn.png; sourceTree = "<group>"; };
+		A5AA697719463823005690C9 /* new_cornbread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_cornbread.png; sourceTree = "<group>"; };
+		A5AA697819463823005690C9 /* new_fir_tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_fir_tree.png; sourceTree = "<group>"; };
+		A5AA697919463823005690C9 /* new_fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_fish.png; sourceTree = "<group>"; };
+		A5AA697A19463823005690C9 /* new_hill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_hill.jpg; sourceTree = "<group>"; };
+		A5AA697B19463823005690C9 /* new_potter_valley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_potter_valley.jpg; sourceTree = "<group>"; };
+		A5AA697C19463823005690C9 /* new_river.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_river.jpg; sourceTree = "<group>"; };
+		A5AA697D19463823005690C9 /* new_rocks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_rocks.jpg; sourceTree = "<group>"; };
+		A5AA697E19463823005690C9 /* new_seaweed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_seaweed.png; sourceTree = "<group>"; };
+		A5AA697F19463823005690C9 /* new_sherwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_sherwood.png; sourceTree = "<group>"; };
+		A5AA698019463823005690C9 /* new_tortilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_tortilla.jpg; sourceTree = "<group>"; };
+		A5AA698119463823005690C9 /* new_ukiah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_ukiah.jpg; sourceTree = "<group>"; };
+		A5AA698219463823005690C9 /* new_water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_water.jpg; sourceTree = "<group>"; };
+		A5AA698319463823005690C9 /* new_white_bread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_white_bread.png; sourceTree = "<group>"; };
+		A5AA698419463823005690C9 /* whistle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whistle.jpg; sourceTree = "<group>"; };
+		A5AA699919464343005690C9 /* coyote_valley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coyote_valley.jpg; sourceTree = "<group>"; };
+		A5C0849219ACF7D200E83966 /* PDCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDCategoryViewController.xib; sourceTree = "<group>"; };
+		A5C0849419AFA21700E83966 /* PDDictionaryGridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDDictionaryGridViewController.xib; sourceTree = "<group>"; };
+		A5C0849619AFA2B200E83966 /* PDWordCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDWordCollectionViewCell.xib; sourceTree = "<group>"; };
+		A5C0849B19AFC55700E83966 /* PDAnimalsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDAnimalsViewController.xib; sourceTree = "<group>"; };
+		A5C0849D19AFC56800E83966 /* PDFoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFoodViewController.xib; sourceTree = "<group>"; };
+		A5C0849F19AFC57700E83966 /* PDHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDHomeViewController.xib; sourceTree = "<group>"; };
+		A5C084A119AFC58E00E83966 /* PDPlantsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDPlantsViewController.xib; sourceTree = "<group>"; };
+		A5C084A319AFC59D00E83966 /* PDPeopleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDPeopleViewController.xib; sourceTree = "<group>"; };
+		A5C084A519AFC5AA00E83966 /* PDPlacesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDPlacesViewController.xib; sourceTree = "<group>"; };
+		A5C084A919AFC5CB00E83966 /* PDTraditionalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDTraditionalViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03986D681908279300CCC87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A592E93B19254D520017A3C7 /* AVFoundation.framework in Frameworks */,
+				A59915A5190AAA2E00B1AE8E /* AudioToolbox.framework in Frameworks */,
+				03986D711908279300CCC87F /* CoreGraphics.framework in Frameworks */,
+				03986D731908279300CCC87F /* UIKit.framework in Frameworks */,
+				03986D6F1908279300CCC87F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03986D8F1908279300CCC87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03986D941908279300CCC87F /* XCTest.framework in Frameworks */,
+				03986D961908279300CCC87F /* UIKit.framework in Frameworks */,
+				03986D951908279300CCC87F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03242552190D6D5B0077EB3E /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				A581CD8D19B649CC004F8FCD /* iPhone */,
+				A581CD8C19B649C7004F8FCD /* iPad */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		03986D621908279300CCC87F = {
+			isa = PBXGroup;
+			children = (
+				03986D741908279300CCC87F /* PomoDictionary */,
+				03986D991908279300CCC87F /* PomoDictionaryTests */,
+				03986D6D1908279300CCC87F /* Frameworks */,
+				03986D6C1908279300CCC87F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03986D6C1908279300CCC87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03986D6B1908279300CCC87F /* PomoDictionary.app */,
+				03986D921908279300CCC87F /* PomoDictionaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03986D6D1908279300CCC87F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A592E93A19254D520017A3C7 /* AVFoundation.framework */,
+				A59915A4190AAA2E00B1AE8E /* AudioToolbox.framework */,
+				03986D6E1908279300CCC87F /* Foundation.framework */,
+				03986D701908279300CCC87F /* CoreGraphics.framework */,
+				03986D721908279300CCC87F /* UIKit.framework */,
+				03986D931908279300CCC87F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03986D741908279300CCC87F /* PomoDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				A59B03C11912DD6A0053B4D8 /* sound */,
+				A59915AC190D611100B1AE8E /* images */,
+				03986D7D1908279300CCC87F /* PDAppDelegate.h */,
+				03986D7E1908279300CCC87F /* PDAppDelegate.m */,
+				03242552190D6D5B0077EB3E /* xib */,
+				03986DB31908294600CCC87F /* View Controllers */,
+				03986D8C1908279300CCC87F /* Images.xcassets */,
+				03986D751908279300CCC87F /* Supporting Files */,
+				A594296619083ECC000DF532 /* PDWord.h */,
+				A594296719083ECC000DF532 /* PDWord.m */,
+				A5AA696F194637D9005690C9 /* dictionaryUpdate2.plist */,
+				A51610131950BDBE0068D67B /* animals.plist */,
+				A51610151950BE8E0068D67B /* traditional.plist */,
+				A51610181950C41F0068D67B /* food.plist */,
+				A516101A1950C4270068D67B /* home.plist */,
+				A516101C1950C42E0068D67B /* nature.plist */,
+				A516101E1950C4420068D67B /* people.plist */,
+				A51610201950C44A0068D67B /* places.plist */,
+				A51610171950C3FF0068D67B /* old files */,
+			);
+			path = PomoDictionary;
+			sourceTree = "<group>";
+		};
+		03986D751908279300CCC87F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03986D761908279300CCC87F /* PomoDictionary-Info.plist */,
+				03986D771908279300CCC87F /* InfoPlist.strings */,
+				03986D7A1908279300CCC87F /* main.m */,
+				03986D7C1908279300CCC87F /* PomoDictionary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03986D991908279300CCC87F /* PomoDictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				03986D9F1908279300CCC87F /* PomoDictionaryTests.m */,
+				03986D9A1908279300CCC87F /* Supporting Files */,
+			);
+			path = PomoDictionaryTests;
+			sourceTree = "<group>";
+		};
+		03986D9A1908279300CCC87F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03986D9B1908279300CCC87F /* PomoDictionaryTests-Info.plist */,
+				03986D9C1908279300CCC87F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03986DB31908294600CCC87F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5160FEF1950B7970068D67B /* Category View Controllers */,
+				0324254F190D6D540077EB3E /* PDWordCollectionViewCell.h */,
+				03242550190D6D540077EB3E /* PDWordCollectionViewCell.m */,
+				A5160FC7194F5FAD0068D67B /* PDHomeScreenViewController.h */,
+				A5160FC8194F5FAD0068D67B /* PDHomeScreenViewController.m */,
+				A5160FD8194F78A00068D67B /* PDCategoryViewController.h */,
+				A5160FD9194F78A00068D67B /* PDCategoryViewController.m */,
+				A59429611908302A000DF532 /* PDAboutViewController.h */,
+				A59429621908302A000DF532 /* PDAboutViewController.m */,
+				A51610221951F8EA0068D67B /* PDContactViewController.h */,
+				A51610231951F8EA0068D67B /* PDContactViewController.m */,
+				A5942969190845BC000DF532 /* PDWordTableViewController.h */,
+				A594296A190845BC000DF532 /* PDWordTableViewController.m */,
+				A599159D1909EB8600B1AE8E /* PDWordDetailViewController.h */,
+				A599159E1909EB8600B1AE8E /* PDWordDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A5160FEF1950B7970068D67B /* Category View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03986DAE1908294100CCC87F /* PDDictionaryGridViewController.h */,
+				03986DAF1908294100CCC87F /* PDDictionaryGridViewController.m */,
+				A5160FF01950B7E50068D67B /* PDAnimalsViewController.h */,
+				A5160FF11950B7E50068D67B /* PDAnimalsViewController.m */,
+				A5160FF51950B7FC0068D67B /* PDFoodViewController.h */,
+				A5160FF61950B7FC0068D67B /* PDFoodViewController.m */,
+				A5160FFA1950B8090068D67B /* PDHomeViewController.h */,
+				A5160FFB1950B8090068D67B /* PDHomeViewController.m */,
+				A5160FFF1950B9E70068D67B /* PDPlantsViewController.h */,
+				A51610001950B9E70068D67B /* PDPlantsViewController.m */,
+				A51610041950BA000068D67B /* PDPeopleViewController.h */,
+				A51610051950BA000068D67B /* PDPeopleViewController.m */,
+				A51610091950BA120068D67B /* PDPlacesViewController.h */,
+				A516100A1950BA120068D67B /* PDPlacesViewController.m */,
+				A516100E1950BA210068D67B /* PDTraditionalViewController.h */,
+				A516100F1950BA210068D67B /* PDTraditionalViewController.m */,
+			);
+			name = "Category View Controllers";
+			sourceTree = "<group>";
+		};
+		A51610171950C3FF0068D67B /* old files */ = {
+			isa = PBXGroup;
+			children = (
+				0324254D190D67000077EB3E /* dictionary.plist */,
+				A59BFBD5192A7504000D45CC /* catDictionary.plist */,
+				A59BFC69192CEEE2000D45CC /* dictionaryUpdate.plist */,
+			);
+			name = "old files";
+			sourceTree = "<group>";
+		};
+		A581CD8C19B649C7004F8FCD /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				A5160FC9194F5FAD0068D67B /* PDHomeScreenViewController~ipad.xib */,
+				A5160FDA194F78A00068D67B /* PDCategoryViewController~ipad.xib */,
+				03242553190D6D6F0077EB3E /* PDWordCollectionViewCell~ipad.xib */,
+				03986DB01908294100CCC87F /* PDDictionaryGridViewController~ipad.xib */,
+				A5160FF21950B7E50068D67B /* PDAnimalsViewController~ipad.xib */,
+				A5160FF71950B7FC0068D67B /* PDFoodViewController~ipad.xib */,
+				A5160FFC1950B8090068D67B /* PDHomeViewController~ipad.xib */,
+				A51610011950B9E70068D67B /* PDPlantsViewController~ipad.xib */,
+				A51610061950BA000068D67B /* PDPeopleViewController~ipad.xib */,
+				A516100B1950BA120068D67B /* PDPlacesViewController~ipad.xib */,
+				A51610101950BA210068D67B /* PDTraditionalViewController~ipad.xib */,
+				A59915A21909EF1600B1AE8E /* PDWordDetailViewController~ipad.xib */,
+				A59429631908302A000DF532 /* PDAboutViewController~ipad.xib */,
+				A51610241951F8EA0068D67B /* PDContactViewController~ipad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		A581CD8D19B649CC004F8FCD /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A5568F271953306400CA4B38 /* PDHomeScreenViewController.xib */,
+				A5C0849219ACF7D200E83966 /* PDCategoryViewController.xib */,
+				A5C0849619AFA2B200E83966 /* PDWordCollectionViewCell.xib */,
+				A5C0849419AFA21700E83966 /* PDDictionaryGridViewController.xib */,
+				A5C0849B19AFC55700E83966 /* PDAnimalsViewController.xib */,
+				A5C0849D19AFC56800E83966 /* PDFoodViewController.xib */,
+				A5C0849F19AFC57700E83966 /* PDHomeViewController.xib */,
+				A5C084A119AFC58E00E83966 /* PDPlantsViewController.xib */,
+				A5C084A319AFC59D00E83966 /* PDPeopleViewController.xib */,
+				A5C084A519AFC5AA00E83966 /* PDPlacesViewController.xib */,
+				A5C084A919AFC5CB00E83966 /* PDTraditionalViewController.xib */,
+				A599159F1909EB8600B1AE8E /* PDWordDetailViewController.xib */,
+				A544304219BA19D800309E91 /* PDAboutViewController.xib */,
+				A544304419BA19E700309E91 /* PDContactViewController.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		A59915AC190D611100B1AE8E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A597C0AC1961D7D5009E41EA /* boow_west.png */,
+				A597C0AE1961DD61009E41EA /* old_man.jpg */,
+				A597C09E1961D4C0009E41EA /* 'aamit'iy_my_younger_sister.png */,
+				A597C0921961D479009E41EA /* 'aa-miphane_my_daughter.png */,
+				A597C0A41961D511009E41EA /* chuhula_north.png */,
+				A597C0A61961D55E009E41EA /* busa_yem_old_man.jpg */,
+				A597C0AA1961D56D009E41EA /* show_east.png */,
+				A597C0961961D48F009E41EA /* 'aamibahan_my_husband.png */,
+				A597C0A81961D566009E41EA /* yoow_south.png */,
+				A597C09C1961D4B5009E41EA /* 'aamidahan_my_wife.png */,
+				A597C09A1961D4A7009E41EA /* khe_kawiyabah_my_son.png */,
+				A597C08A1961D447009E41EA /* kasil_xale_redwood_tree.jpg */,
+				A597C0941961D485009E41EA /* 'aa-mi'e_my_father.png */,
+				A597C0981961D49A009E41EA /* 'aa-mithe_my_mother.png */,
+				A597C0A21961D506009E41EA /* datha_yem_old_woman.jpg */,
+				A597C0901961D46A009E41EA /* tibee_tule.jpg */,
+				A597C0881961D43D009E41EA /* phut'_fog.jpg */,
+				A597C08E1961D45D009E41EA /* philus_tornado.jpg */,
+				A597C0861961D41F009E41EA /* t'ik'_string.jpg */,
+				A597C0841961D410009E41EA /* mishin_car.png */,
+				A597C08C1961D451009E41EA /* mith'aa_sun.jpg */,
+				A597C0821961D3FD009E41EA /* ka'day_gambling_sticks.png */,
+				A597C0801961D38E009E41EA /* them_kata_abalone_shell.jpg */,
+				A597C068195DEAC2009E41EA /* butterfly_uytoktok.jpg */,
+				A5160FED19508A7D0068D67B /* Screen Shot 2014-06-17 at 10.38.00 AM.png */,
+				A5160FDD194F7EA90068D67B /* all.jpg */,
+				A5160FDE194F7EA90068D67B /* animals.jpg */,
+				A5160FDF194F7EA90068D67B /* food.jpg */,
+				A5160FE0194F7EA90068D67B /* home.jpg */,
+				A5160FE1194F7EA90068D67B /* nature.jpg */,
+				A5160FE2194F7EA90068D67B /* people.jpg */,
+				A549C6C51952295700A1AC73 /* new_acorn_mush.png */,
+				A5160FE3194F7EA90068D67B /* places.jpg */,
+				A5160FE4194F7EA90068D67B /* traditional.jpg */,
+				A5160FCC194F626E0068D67B /* home page.png */,
+				A5AA697119463823005690C9 /* arrowhead.jpg */,
+				A5AA697219463823005690C9 /* new_ant.jpg */,
+				A5AA697319463823005690C9 /* new_bed.png */,
+				A5AA697419463823005690C9 /* new_cat.jpg */,
+				A56E1446194F30E400BAC46A /* new_sedge.png */,
+				A56E1447194F30E400BAC46A /* new_pinole.png */,
+				A5AA697519463823005690C9 /* new_chicken.jpg */,
+				A5AA697619463823005690C9 /* new_corn.png */,
+				A5AA697719463823005690C9 /* new_cornbread.png */,
+				A5AA697819463823005690C9 /* new_fir_tree.png */,
+				A5AA697919463823005690C9 /* new_fish.png */,
+				A5AA697A19463823005690C9 /* new_hill.jpg */,
+				A5AA697B19463823005690C9 /* new_potter_valley.jpg */,
+				A5AA697C19463823005690C9 /* new_river.jpg */,
+				A5AA697D19463823005690C9 /* new_rocks.jpg */,
+				A5AA697E19463823005690C9 /* new_seaweed.png */,
+				A5AA697F19463823005690C9 /* new_sherwood.png */,
+				A5AA698019463823005690C9 /* new_tortilla.jpg */,
+				A5AA698119463823005690C9 /* new_ukiah.jpg */,
+				A5AA698219463823005690C9 /* new_water.jpg */,
+				A5AA698319463823005690C9 /* new_white_bread.png */,
+				A5AA698419463823005690C9 /* whistle.jpg */,
+				A59915AD190D611100B1AE8E /* about page images */,
+				A59B04B41912E2D40053B4D8 /* diwi_coyote.jpg */,
+				A59B04B51912E2D40053B4D8 /* jishil_meadowlark.jpg */,
+				A59B04B61912E2D40053B4D8 /* misaxala_snake.jpg */,
+				A59BFDB7192D3255000D45CC /* dashoya_young_woman.jpg */,
+				A59BFD8B192D2E4B000D45CC /* 'ih_feather.jpg */,
+				A59BFDB5192D3242000D45CC /* busa_yem_old_man.jpg */,
+				A59BFDB9192D326B000D45CC /* maaTa_woman.jpg */,
+				A59BFDB3192D3221000D45CC /* aamiki_my_older_brother.png */,
+				A59BFD8C192D2E4B000D45CC /* ’uy-diṱema’_eyeglasses.png */,
+				A59BFD8D192D2E4B000D45CC /* ditsiya_bone_awl.png */,
+				A59BFD9B192D3100000D45CC /* ts'iya_red_tailed_hawk.jpg */,
+				A59BFD9D192D3116000D45CC /* dishiy_black_oak_acorn.png */,
+				A59BFD9F192D312E000D45CC /* maayish_corn.jpg */,
+				A59BFD8E192D2E4B000D45CC /* ho_fire.jpg */,
+				A59BFD99192D30CF000D45CC /* kidi_cat.jpg */,
+				A59BFD8F192D2E4B000D45CC /* kal_bead.png */,
+				A59BFD90192D2E4B000D45CC /* libuu_whistle.png */,
+				A59BFD91192D2E4B000D45CC /* si'ka_baby_basket.png */,
+				A59B04B71912E2D40053B4D8 /* mithuulu_lizard.png */,
+				A5AA699919464343005690C9 /* coyote_valley.jpg */,
+				A59B04B81912E2D40053B4D8 /* shakoodo_rabbit.jpg */,
+				A59B04B91912E2D40053B4D8 /* shats'on_quilt.png.png */,
+				A59B039F1912D11F0053B4D8 /* original.png */,
+				A59B03A11912D2950053B4D8 /* photo-frame@2x.png */,
+				A59915B2190D611100B1AE8E /* balo'xay_Potter_Valley.png */,
+				A597C06C195DEC89009E41EA /* bitumtu_ant.jpg */,
+				A59915B3190D611100B1AE8E /* dano_hill_mountain.jpg */,
+				A59B03A31912DA010053B4D8 /* bishe_deer.jpg */,
+				A59B03BF1912DCFA0053B4D8 /* hakaaka_valley_quail.jpg */,
+				A59B03A51912DA010053B4D8 /* bitaa_bear.jpg */,
+				A59B03A61912DA010053B4D8 /* gayna'_roast_chicken.jpg */,
+				A59B03BB1912DA820053B4D8 /* dishiy_black_oak_acorn.png */,
+				A59B03A71912DA010053B4D8 /* hayu_dog.png */,
+				A59B03A81912DA010053B4D8 /* millee_redbud.png */,
+				A59B03A91912DA010053B4D8 /* phik'a_basket.png */,
+				A59B03AA1912DA010053B4D8 /* xabaa_cloud.png */,
+				A59B03AB1912DA010053B4D8 /* xabe_rock.png */,
+				A59B03AC1912DA010053B4D8 /* xaja_kujiya_flint_knife.png */,
+				A59B03AD1912DA010053B4D8 /* xawaa_xale_fir_tree.jpg */,
+				A59B03AE1912DA010053B4D8 /* yowsha_salmon.jpg */,
+				A59BFDC1192E9E25000D45CC /* ts'uu_arrow.png */,
+				A59915B5190D611100B1AE8E /* dishiy_xale_black_oak_tree.jpg */,
+				A59915B6190D611100B1AE8E /* gayna'_chicken.jpg */,
+				A59915B7190D611100B1AE8E /* iihol'_beans.jpg */,
+				A59915B8190D611100B1AE8E /* ja_house.png */,
+				A59915B9190D611100B1AE8E /* jom_xale_grey_pine_tree.jpg */,
+				A59915BA190D611100B1AE8E /* k'abay_onions.jpg */,
+				A59915BB190D611100B1AE8E /* k'uhum_white_sedge_root.jpg */,
+				A59915BC190D611100B1AE8E /* maayish_jinii_cornbread.png */,
+				A59915BD190D611100B1AE8E /* phit'am_flower.jpg */,
+				A59915BE190D611200B1AE8E /* so_clover.jpg */,
+				A59915BF190D611200B1AE8E /* them_abalone.jpg */,
+				A59915C0190D611200B1AE8E /* thonuk_seaweed.png */,
+				A59915C1190D611200B1AE8E /* tortilla.png */,
+				A59915C2190D611200B1AE8E /* ts'iwish_black_root.jpg */,
+				A59915C3190D611200B1AE8E /* xa_water.png */,
+				A59B03BD1912DAF70053B4D8 /* dishiy_black_oak_acorn.jpg */,
+				A59915C4190D611200B1AE8E /* xabeda_river.jpg */,
+				A59915C5190D611200B1AE8E /* xal_mussels.jpg */,
+				A59915C6190D611200B1AE8E /* xalal_willow.jpg */,
+				A59BFDBB192D35A4000D45CC /* aamiki_my_older_brother.png */,
+				A59915C7190D611200B1AE8E /* xashapomitin_lake.jpg */,
+				A59BFDA3192D3177000D45CC /* ho_fire.jpg */,
+				A59BFDA1192D3153000D45CC /* shats'on_quilt.png */,
+				A59915C8190D611200B1AE8E /* yuhuu_pinole.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A59915AD190D611100B1AE8E /* about page images */ = {
+			isa = PBXGroup;
+			children = (
+				A59915B0190D611100B1AE8E /* Edna3.png */,
+				A59915B1190D611100B1AE8E /* Elenor.png */,
+			);
+			path = "about page images";
+			sourceTree = "<group>";
+		};
+		A59B03C11912DD6A0053B4D8 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				A597BFBA195DCFAA009E41EA /* aa_mie_my_father.mp3 */,
+				A597C06A195DEB57009E41EA /* butterfly_uytoktok2.mp3 */,
+				A597BFBB195DCFAA009E41EA /* aa_miphane_my_daughter.mp3 */,
+				A597C06E195DF4AF009E41EA /* dog_hayu2.mp3 */,
+				A597BFBC195DCFAA009E41EA /* aa_mithe_my_mother.mp3 */,
+				A597BFBD195DCFAA009E41EA /* aamibahan_my_husband.mp3 */,
+				A597BFBE195DCFAA009E41EA /* aamidahan_my_wife.mp3 */,
+				A597C07E195DF841009E41EA /* baloxay_potter_valley.mp3 */,
+				A597BFBF195DCFAA009E41EA /* aamiki_my_older_brother.mp3 */,
+				A597BFC0195DCFAA009E41EA /* aamitiy_my_younger_sister.mp3 */,
+				A597BFC1195DCFAA009E41EA /* aamitsu_my_uncle.mp3 */,
+				A597C072195DF4D3009E41EA /* beans.iihol.mp3 */,
+				A597BFC3195DCFAA009E41EA /* bishe_deer.mp3 */,
+				A597C074195DF4DD009E41EA /* seaweed.tonuk.mp3 */,
+				A597C076195DF4EE009E41EA /* maata_woman.mp3 */,
+				A597BFC4195DCFAA009E41EA /* bitaa_bear.mp3 */,
+				A597BFC5195DCFAA009E41EA /* bitumtu_ant.mp3 */,
+				A597C078195DF508009E41EA /* CoyoteValley.showdaxay2.mp3 */,
+				A597BFC6195DCFAA009E41EA /* bow_west.mp3 */,
+				A597C070195DF4BD009E41EA /* fish.sha2.mp3 */,
+				A597BFC7195DCFAA009E41EA /* busa_yem_old_man.mp3 */,
+				A597BFC8195DCFAA009E41EA /* chuhula_north.mp3 */,
+				A597BFC9195DCFAA009E41EA /* dano_hill_mountain.mp3 */,
+				A597BFCA195DCFAA009E41EA /* dashoya_young_woman.mp3 */,
+				A597BFCB195DCFAA009E41EA /* datha_yem_old_woman.mp3 */,
+				A597BFCC195DCFAA009E41EA /* dishiy_black_oak_acorn.mp3 */,
+				A597BFCD195DCFAA009E41EA /* dishiy_xale_black_oak_tree.mp3 */,
+				A597BFCE195DCFAA009E41EA /* ditsiya_bone_awl.mp3 */,
+				A597BFCF195DCFAA009E41EA /* diwi_coyote.mp3 */,
+				A597BFD0195DCFAA009E41EA /* gayna_chicken.mp3 */,
+				A597BFD1195DCFAA009E41EA /* gayna_roast_chicken.mp3 */,
+				A597BFD2195DCFAA009E41EA /* hayphoma_sherwood_laytonville.mp3 */,
+				A597BFD3195DCFAA009E41EA /* hayu_dog.mp3 */,
+				A597BFD4195DCFAA009E41EA /* ho_fire.mp3 */,
+				A597C07A195DF538009E41EA /* baloxay_Potter_Valley.mp3 */,
+				A597BFD5195DCFAA009E41EA /* ih_feather.mp3 */,
+				A597BFD6195DCFAA009E41EA /* iihol_beans.mp3 */,
+				A597BFD7195DCFAA009E41EA /* ja_house.mp3 */,
+				A597BFD9195DCFAA009E41EA /* jishil_meadowlark.mp3 */,
+				A597C07C195DF564009E41EA /* water.xa.mp3 */,
+				A597BFDA195DCFAA009E41EA /* jom_xale_grey_pine_tree.mp3 */,
+				A597BFDB195DCFAA009E41EA /* kabay_onions.mp3 */,
+				A597BFDC195DCFAA009E41EA /* kaday_gambling_sticks.mp3 */,
+				A597BFDD195DCFAA009E41EA /* kal_bead.mp3 */,
+				A597BFDE195DCFAA009E41EA /* kasil_xale_redwood_tree.mp3 */,
+				A597BFDF195DCFAA009E41EA /* khe_kawiyabah_my_son.mp3 */,
+				A597BFE0195DCFAA009E41EA /* kuhum_white_sedge_root.mp3 */,
+				A597BFE1195DCFAA009E41EA /* libuu_whistle.mp3 */,
+				A597BFE2195DCFAA009E41EA /* maata_woman.mp3 */,
+				A597BFE3195DCFAA009E41EA /* maayish_corn.mp3 */,
+				A597BFE4195DCFAA009E41EA /* maayish_jinii_cornbread.mp3 */,
+				A597BFE5195DCFAA009E41EA /* masan_jinii_white_bread.mp3 */,
+				A597BFE6195DCFAA009E41EA /* millee_redbud.mp3 */,
+				A597BFE7195DCFAA009E41EA /* misaxala_snake.mp3 */,
+				A597BFE8195DCFAA009E41EA /* mishin_car.mp3 */,
+				A597BFE9195DCFAA009E41EA /* mithaa_sun.mp3 */,
+				A597BFEA195DCFAA009E41EA /* mithuulu_lizard.mp3 */,
+				A597BFEB195DCFAA009E41EA /* phika_basket.mp3 */,
+				A597BFEC195DCFAA009E41EA /* philus_tornado.mp3 */,
+				A597BFED195DCFAA009E41EA /* phitam_flower.mp3 */,
+				A597BFEE195DCFAA009E41EA /* phut_fog.mp3 */,
+				A597BFEF195DCFAA009E41EA /* sha_fish.mp3 */,
+				A597BFF0195DCFAA009E41EA /* shakaaka_valley_quail.mp3 */,
+				A597BFF1195DCFAA009E41EA /* shakoodo_rabbit.mp3 */,
+				A597BFF2195DCFAA009E41EA /* shatson_quilt.mp3 */,
+				A597BFF3195DCFAA009E41EA /* show_east.mp3 */,
+				A597BFF4195DCFAA009E41EA /* showdaxay_coyote_valley.mp3 */,
+				A597BFF5195DCFAA009E41EA /* sika_baby_basket.mp3 */,
+				A597BFF6195DCFAA009E41EA /* so_clover.mp3 */,
+				A597BFF7195DCFAA009E41EA /* them_abalone.mp3 */,
+				A597BFF8195DCFAA009E41EA /* them_kata_abalone_shell.mp3 */,
+				A597BFF9195DCFAA009E41EA /* thonuk_seaweed.mp3 */,
+				A597BFFA195DCFAA009E41EA /* thooo_acorn_mush.mp3 */,
+				A597BFFB195DCFAA009E41EA /* tibee_tule.mp3 */,
+				A597BFFC195DCFAA009E41EA /* tik_string.mp3 */,
+				A597BFFD195DCFAA009E41EA /* toltiya_tortilla.mp3 */,
+				A597BFFE195DCFAA009E41EA /* tsiwish_black_root.mp3 */,
+				A597BFFF195DCFAA009E41EA /* tsiya_red_tailed_hawk.mp3 */,
+				A597C000195DCFAA009E41EA /* tsuu_arrow.mp3 */,
+				A597C001195DCFAA009E41EA /* uy_di_ema_eyeglasses.mp3 */,
+				A597C002195DCFAA009E41EA /* xa_water.mp3 */,
+				A597C003195DCFAA009E41EA /* xabaa_cloud.mp3 */,
+				A597C004195DCFAA009E41EA /* xabe_rock.mp3 */,
+				A597C005195DCFAA009E41EA /* xabeda_river.mp3 */,
+				A597C006195DCFAA009E41EA /* xadalom_cat.mp3 */,
+				A597C007195DCFAA009E41EA /* xaja_kujiya_flint_knife.mp3 */,
+				A597C008195DCFAA009E41EA /* xal_mussels.mp3 */,
+				A597C009195DCFAA009E41EA /* xalal_willow.mp3 */,
+				A597C00A195DCFAA009E41EA /* xashapomitin_lake.mp3 */,
+				A597C00B195DCFAA009E41EA /* xati_bed.mp3 */,
+				A597C00C195DCFAA009E41EA /* xawaa_xale_fir_tree.mp3 */,
+				A597C00D195DCFAA009E41EA /* yoow_south.mp3 */,
+				A597C00E195DCFAA009E41EA /* yowsha_salmon.mp3 */,
+				A597C00F195DCFAA009E41EA /* yoxayamaa_ukiah.mp3 */,
+				A597C010195DCFAA009E41EA /* yuhuu_pinole.mp3 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03986D6A1908279300CCC87F /* PomoDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03986DA31908279300CCC87F /* Build configuration list for PBXNativeTarget "PomoDictionary" */;
+			buildPhases = (
+				03986D671908279300CCC87F /* Sources */,
+				03986D681908279300CCC87F /* Frameworks */,
+				03986D691908279300CCC87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PomoDictionary;
+			productName = PomoDictionary;
+			productReference = 03986D6B1908279300CCC87F /* PomoDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03986D911908279300CCC87F /* PomoDictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03986DA61908279300CCC87F /* Build configuration list for PBXNativeTarget "PomoDictionaryTests" */;
+			buildPhases = (
+				03986D8E1908279300CCC87F /* Sources */,
+				03986D8F1908279300CCC87F /* Frameworks */,
+				03986D901908279300CCC87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03986D981908279300CCC87F /* PBXTargetDependency */,
+			);
+			name = PomoDictionaryTests;
+			productName = PomoDictionaryTests;
+			productReference = 03986D921908279300CCC87F /* PomoDictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03986D631908279300CCC87F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PD;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = JHLEnterprises;
+				TargetAttributes = {
+					03986D6A1908279300CCC87F = {
+						DevelopmentTeam = JHJ98953SC;
+					};
+					03986D911908279300CCC87F = {
+						TestTargetID = 03986D6A1908279300CCC87F;
+					};
+				};
+			};
+			buildConfigurationList = 03986D661908279300CCC87F /* Build configuration list for PBXProject "PomoDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03986D621908279300CCC87F;
+			productRefGroup = 03986D6C1908279300CCC87F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03986D6A1908279300CCC87F /* PomoDictionary */,
+				03986D911908279300CCC87F /* PomoDictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03986D691908279300CCC87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5160FF91950B7FC0068D67B /* PDFoodViewController~ipad.xib in Resources */,
+				A5160FE7194F7EA90068D67B /* food.jpg in Resources */,
+				A5160FEA194F7EA90068D67B /* people.jpg in Resources */,
+				A597C058195DCFAA009E41EA /* uy_di_ema_eyeglasses.mp3 in Resources */,
+				A597C0A91961D566009E41EA /* yoow_south.png in Resources */,
+				A597C030195DCFAA009E41EA /* jishil_meadowlark.mp3 in Resources */,
+				A51610261951F8EA0068D67B /* PDContactViewController~ipad.xib in Resources */,
+				A516101D1950C42E0068D67B /* nature.plist in Resources */,
+				A597C02B195DCFAA009E41EA /* ho_fire.mp3 in Resources */,
+				A5C084A019AFC57700E83966 /* PDHomeViewController.xib in Resources */,
+				A597C03B195DCFAA009E41EA /* maayish_jinii_cornbread.mp3 in Resources */,
+				A597C012195DCFAA009E41EA /* aa_miphane_my_daughter.mp3 in Resources */,
+				A5568F281953306400CA4B38 /* PDHomeScreenViewController.xib in Resources */,
+				A5AA699819463823005690C9 /* whistle.jpg in Resources */,
+				A597C040195DCFAA009E41EA /* mithaa_sun.mp3 in Resources */,
+				A597C01A195DCFAA009E41EA /* bishe_deer.mp3 in Resources */,
+				A597C01B195DCFAA009E41EA /* bitaa_bear.mp3 in Resources */,
+				A5AA698C19463823005690C9 /* new_fir_tree.png in Resources */,
+				A597C063195DCFAA009E41EA /* xawaa_xale_fir_tree.mp3 in Resources */,
+				A597C0891961D43D009E41EA /* phut'_fog.jpg in Resources */,
+				A597C02A195DCFAA009E41EA /* hayu_dog.mp3 in Resources */,
+				A597C0AF1961DD61009E41EA /* old_man.jpg in Resources */,
+				A59915D2190D611200B1AE8E /* iihol'_beans.jpg in Resources */,
+				A59B03B21912DA010053B4D8 /* gayna'_roast_chicken.jpg in Resources */,
+				A597C0971961D48F009E41EA /* 'aamibahan_my_husband.png in Resources */,
+				A597C077195DF4EE009E41EA /* maata_woman.mp3 in Resources */,
+				A51610191950C41F0068D67B /* food.plist in Resources */,
+				A59429651908302A000DF532 /* PDAboutViewController~ipad.xib in Resources */,
+				A59BFDBA192D326B000D45CC /* maaTa_woman.jpg in Resources */,
+				A597C0991961D49A009E41EA /* 'aa-mithe_my_mother.png in Resources */,
+				A59915CD190D611200B1AE8E /* balo'xay_Potter_Valley.png in Resources */,
+				A59915D3190D611200B1AE8E /* ja_house.png in Resources */,
+				A59B03C01912DCFA0053B4D8 /* hakaaka_valley_quail.jpg in Resources */,
+				A597C011195DCFAA009E41EA /* aa_mie_my_father.mp3 in Resources */,
+				A5160FE8194F7EA90068D67B /* home.jpg in Resources */,
+				A59B03B41912DA010053B4D8 /* millee_redbud.png in Resources */,
+				A56E1449194F30E400BAC46A /* new_pinole.png in Resources */,
+				A5AA6970194637D9005690C9 /* dictionaryUpdate2.plist in Resources */,
+				A597C027195DCFAA009E41EA /* gayna_chicken.mp3 in Resources */,
+				A51610121950BA210068D67B /* PDTraditionalViewController~ipad.xib in Resources */,
+				A597C09F1961D4C0009E41EA /* 'aamit'iy_my_younger_sister.png in Resources */,
+				A597C0851961D410009E41EA /* mishin_car.png in Resources */,
+				A597C0AD1961D7D5009E41EA /* boow_west.png in Resources */,
+				A597C021195DCFAA009E41EA /* dashoya_young_woman.mp3 in Resources */,
+				A59BFD98192D2E4B000D45CC /* si'ka_baby_basket.png in Resources */,
+				A5C084A619AFC5AA00E83966 /* PDPlacesViewController.xib in Resources */,
+				A597C047195DCFAA009E41EA /* shakaaka_valley_quail.mp3 in Resources */,
+				A544304319BA19D900309E91 /* PDAboutViewController.xib in Resources */,
+				A597C048195DCFAA009E41EA /* shakoodo_rabbit.mp3 in Resources */,
+				A59915CE190D611200B1AE8E /* dano_hill_mountain.jpg in Resources */,
+				A597C049195DCFAA009E41EA /* shatson_quilt.mp3 in Resources */,
+				A597C05A195DCFAA009E41EA /* xabaa_cloud.mp3 in Resources */,
+				A597C06D195DEC89009E41EA /* bitumtu_ant.jpg in Resources */,
+				A597C031195DCFAA009E41EA /* jom_xale_grey_pine_tree.mp3 in Resources */,
+				A5C084A219AFC58E00E83966 /* PDPlantsViewController.xib in Resources */,
+				03986D8D1908279300CCC87F /* Images.xcassets in Resources */,
+				A59B03B61912DA010053B4D8 /* xabaa_cloud.png in Resources */,
+				A597C05F195DCFAA009E41EA /* xal_mussels.mp3 in Resources */,
+				A597C07F195DF841009E41EA /* baloxay_potter_valley.mp3 in Resources */,
+				A5AA699319463823005690C9 /* new_sherwood.png in Resources */,
+				A59B03B31912DA010053B4D8 /* hayu_dog.png in Resources */,
+				A597C056195DCFAA009E41EA /* tsiya_red_tailed_hawk.mp3 in Resources */,
+				A59B03AF1912DA010053B4D8 /* bishe_deer.jpg in Resources */,
+				A597C075195DF4DD009E41EA /* seaweed.tonuk.mp3 in Resources */,
+				A59B04BF1912E2D40053B4D8 /* shats'on_quilt.png.png in Resources */,
+				A597C044195DCFAA009E41EA /* phitam_flower.mp3 in Resources */,
+				A59915A31909EF1600B1AE8E /* PDWordDetailViewController~ipad.xib in Resources */,
+				A597C059195DCFAA009E41EA /* xa_water.mp3 in Resources */,
+				A59B03B51912DA010053B4D8 /* phik'a_basket.png in Resources */,
+				A5C084A419AFC59D00E83966 /* PDPeopleViewController.xib in Resources */,
+				A597C017195DCFAA009E41EA /* aamitiy_my_younger_sister.mp3 in Resources */,
+				A597C05D195DCFAA009E41EA /* xadalom_cat.mp3 in Resources */,
+				A59915DD190D611200B1AE8E /* ts'iwish_black_root.jpg in Resources */,
+				A597C06F195DF4AF009E41EA /* dog_hayu2.mp3 in Resources */,
+				A59B03BE1912DAF70053B4D8 /* dishiy_black_oak_acorn.jpg in Resources */,
+				A59915D7190D611200B1AE8E /* maayish_jinii_cornbread.png in Resources */,
+				A59915DF190D611200B1AE8E /* xabeda_river.jpg in Resources */,
+				A59B04BC1912E2D40053B4D8 /* misaxala_snake.jpg in Resources */,
+				A59915D9190D611200B1AE8E /* so_clover.jpg in Resources */,
+				A5AA699619463823005690C9 /* new_water.jpg in Resources */,
+				A5C0849C19AFC55700E83966 /* PDAnimalsViewController.xib in Resources */,
+				A5C0849319ACF7D200E83966 /* PDCategoryViewController.xib in Resources */,
+				A516100D1950BA120068D67B /* PDPlacesViewController~ipad.xib in Resources */,
+				A597C08F1961D45D009E41EA /* philus_tornado.jpg in Resources */,
+				A59915E0190D611200B1AE8E /* xal_mussels.jpg in Resources */,
+				A59915DC190D611200B1AE8E /* tortilla.png in Resources */,
+				A597C052195DCFAA009E41EA /* tibee_tule.mp3 in Resources */,
+				A59915E1190D611200B1AE8E /* xalal_willow.jpg in Resources */,
+				A5C084AA19AFC5CB00E83966 /* PDTraditionalViewController.xib in Resources */,
+				A5160FEE19508A7D0068D67B /* Screen Shot 2014-06-17 at 10.38.00 AM.png in Resources */,
+				A597C01D195DCFAA009E41EA /* bow_west.mp3 in Resources */,
+				A597C02D195DCFAA009E41EA /* iihol_beans.mp3 in Resources */,
+				A59B03A01912D11F0053B4D8 /* original.png in Resources */,
+				A59B03BA1912DA010053B4D8 /* yowsha_salmon.jpg in Resources */,
+				A597C043195DCFAA009E41EA /* philus_tornado.mp3 in Resources */,
+				A59BFD96192D2E4B000D45CC /* kal_bead.png in Resources */,
+				A5AA698E19463823005690C9 /* new_hill.jpg in Resources */,
+				A5AA698D19463823005690C9 /* new_fish.png in Resources */,
+				A597C05E195DCFAA009E41EA /* xaja_kujiya_flint_knife.mp3 in Resources */,
+				A597C032195DCFAA009E41EA /* kabay_onions.mp3 in Resources */,
+				A59BFDC2192E9E25000D45CC /* ts'uu_arrow.png in Resources */,
+				03986D791908279300CCC87F /* InfoPlist.strings in Resources */,
+				A59B04BD1912E2D40053B4D8 /* mithuulu_lizard.png in Resources */,
+				A516101F1950C4420068D67B /* people.plist in Resources */,
+				A59B03B81912DA010053B4D8 /* xaja_kujiya_flint_knife.png in Resources */,
+				A5AA698B19463823005690C9 /* new_cornbread.png in Resources */,
+				A597C026195DCFAA009E41EA /* diwi_coyote.mp3 in Resources */,
+				A59BFD92192D2E4B000D45CC /* 'ih_feather.jpg in Resources */,
+				A597C03E195DCFAA009E41EA /* misaxala_snake.mp3 in Resources */,
+				A5AA698F19463823005690C9 /* new_potter_valley.jpg in Resources */,
+				A597C09B1961D4A7009E41EA /* khe_kawiyabah_my_son.png in Resources */,
+				A5AA699519463823005690C9 /* new_ukiah.jpg in Resources */,
+				A5AA699219463823005690C9 /* new_seaweed.png in Resources */,
+				A59915E3190D611200B1AE8E /* yuhuu_pinole.png in Resources */,
+				A597C0831961D3FD009E41EA /* ka'day_gambling_sticks.png in Resources */,
+				A597C016195DCFAA009E41EA /* aamiki_my_older_brother.mp3 in Resources */,
+				A597C04E195DCFAA009E41EA /* them_abalone.mp3 in Resources */,
+				A597C060195DCFAA009E41EA /* xalal_willow.mp3 in Resources */,
+				A597C050195DCFAA009E41EA /* thonuk_seaweed.mp3 in Resources */,
+				A597C0A71961D55E009E41EA /* busa_yem_old_man.jpg in Resources */,
+				A597C08B1961D447009E41EA /* kasil_xale_redwood_tree.jpg in Resources */,
+				A597C04B195DCFAA009E41EA /* showdaxay_coyote_valley.mp3 in Resources */,
+				A597C02C195DCFAA009E41EA /* ih_feather.mp3 in Resources */,
+				A59BFDB8192D3255000D45CC /* dashoya_young_woman.jpg in Resources */,
+				A597C036195DCFAA009E41EA /* khe_kawiyabah_my_son.mp3 in Resources */,
+				A5AA699119463823005690C9 /* new_rocks.jpg in Resources */,
+				A59BFC6A192CEEE2000D45CC /* dictionaryUpdate.plist in Resources */,
+				A597C064195DCFAA009E41EA /* yoow_south.mp3 in Resources */,
+				A59915A11909EB8600B1AE8E /* PDWordDetailViewController.xib in Resources */,
+				A597C061195DCFAA009E41EA /* xashapomitin_lake.mp3 in Resources */,
+				A544304519BA19E700309E91 /* PDContactViewController.xib in Resources */,
+				A597C054195DCFAA009E41EA /* toltiya_tortilla.mp3 in Resources */,
+				A597C02E195DCFAA009E41EA /* ja_house.mp3 in Resources */,
+				A597C04D195DCFAA009E41EA /* so_clover.mp3 in Resources */,
+				A59BFD95192D2E4B000D45CC /* ho_fire.jpg in Resources */,
+				A597C01F195DCFAA009E41EA /* chuhula_north.mp3 in Resources */,
+				A5160FE5194F7EA90068D67B /* all.jpg in Resources */,
+				A5AA698519463823005690C9 /* arrowhead.jpg in Resources */,
+				A597C06B195DEB57009E41EA /* butterfly_uytoktok2.mp3 in Resources */,
+				A5160FE6194F7EA90068D67B /* animals.jpg in Resources */,
+				A5160FEC194F7EA90068D67B /* traditional.jpg in Resources */,
+				A597C041195DCFAA009E41EA /* mithuulu_lizard.mp3 in Resources */,
+				A59BFD97192D2E4B000D45CC /* libuu_whistle.png in Resources */,
+				A59B04BA1912E2D40053B4D8 /* diwi_coyote.jpg in Resources */,
+				A597C033195DCFAA009E41EA /* kaday_gambling_sticks.mp3 in Resources */,
+				A5AA698919463823005690C9 /* new_chicken.jpg in Resources */,
+				A51610031950B9E70068D67B /* PDPlantsViewController~ipad.xib in Resources */,
+				A59BFBD6192A7504000D45CC /* catDictionary.plist in Resources */,
+				A51610081950BA000068D67B /* PDPeopleViewController~ipad.xib in Resources */,
+				A5C0849519AFA21700E83966 /* PDDictionaryGridViewController.xib in Resources */,
+				A597C01E195DCFAA009E41EA /* busa_yem_old_man.mp3 in Resources */,
+				A59915DE190D611200B1AE8E /* xa_water.png in Resources */,
+				A597C028195DCFAA009E41EA /* gayna_roast_chicken.mp3 in Resources */,
+				A59B03B91912DA010053B4D8 /* xawaa_xale_fir_tree.jpg in Resources */,
+				A59BFDBC192D35A4000D45CC /* aamiki_my_older_brother.png in Resources */,
+				A59915D6190D611200B1AE8E /* k'uhum_white_sedge_root.jpg in Resources */,
+				A597C025195DCFAA009E41EA /* ditsiya_bone_awl.mp3 in Resources */,
+				A59915E2190D611200B1AE8E /* xashapomitin_lake.jpg in Resources */,
+				A597C046195DCFAA009E41EA /* sha_fish.mp3 in Resources */,
+				A597C067195DCFAA009E41EA /* yuhuu_pinole.mp3 in Resources */,
+				A597C09D1961D4B5009E41EA /* 'aamidahan_my_wife.png in Resources */,
+				A5AA699719463823005690C9 /* new_white_bread.png in Resources */,
+				A597C037195DCFAA009E41EA /* kuhum_white_sedge_root.mp3 in Resources */,
+				A597C069195DEAC2009E41EA /* butterfly_uytoktok.jpg in Resources */,
+				A59BFD9A192D30CF000D45CC /* kidi_cat.jpg in Resources */,
+				A597C014195DCFAA009E41EA /* aamibahan_my_husband.mp3 in Resources */,
+				A597C03F195DCFAA009E41EA /* mishin_car.mp3 in Resources */,
+				A59915D5190D611200B1AE8E /* k'abay_onions.jpg in Resources */,
+				A597C08D1961D451009E41EA /* mith'aa_sun.jpg in Resources */,
+				A59B03BC1912DA820053B4D8 /* dishiy_black_oak_acorn.png in Resources */,
+				A597C065195DCFAA009E41EA /* yowsha_salmon.mp3 in Resources */,
+				03986DB21908294100CCC87F /* PDDictionaryGridViewController~ipad.xib in Resources */,
+				A597C04F195DCFAA009E41EA /* them_kata_abalone_shell.mp3 in Resources */,
+				A597C055195DCFAA009E41EA /* tsiwish_black_root.mp3 in Resources */,
+				A597C05C195DCFAA009E41EA /* xabeda_river.mp3 in Resources */,
+				A597C042195DCFAA009E41EA /* phika_basket.mp3 in Resources */,
+				A59B04BB1912E2D40053B4D8 /* jishil_meadowlark.jpg in Resources */,
+				A549C6C61952295700A1AC73 /* new_acorn_mush.png in Resources */,
+				A597C073195DF4D3009E41EA /* beans.iihol.mp3 in Resources */,
+				A597C029195DCFAA009E41EA /* hayphoma_sherwood_laytonville.mp3 in Resources */,
+				A5C0849E19AFC56800E83966 /* PDFoodViewController.xib in Resources */,
+				A597C03D195DCFAA009E41EA /* millee_redbud.mp3 in Resources */,
+				A59915D0190D611200B1AE8E /* dishiy_xale_black_oak_tree.jpg in Resources */,
+				A597C015195DCFAA009E41EA /* aamidahan_my_wife.mp3 in Resources */,
+				A5AA698A19463823005690C9 /* new_corn.png in Resources */,
+				A51610161950BE8E0068D67B /* traditional.plist in Resources */,
+				A59B03A21912D2950053B4D8 /* photo-frame@2x.png in Resources */,
+				A597C020195DCFAA009E41EA /* dano_hill_mountain.mp3 in Resources */,
+				A597C071195DF4BD009E41EA /* fish.sha2.mp3 in Resources */,
+				A597C01C195DCFAA009E41EA /* bitumtu_ant.mp3 in Resources */,
+				A597C022195DCFAA009E41EA /* datha_yem_old_woman.mp3 in Resources */,
+				A597C04A195DCFAA009E41EA /* show_east.mp3 in Resources */,
+				A5AA699419463823005690C9 /* new_tortilla.jpg in Resources */,
+				A597C045195DCFAA009E41EA /* phut_fog.mp3 in Resources */,
+				A59915D1190D611200B1AE8E /* gayna'_chicken.jpg in Resources */,
+				A59915DB190D611200B1AE8E /* thonuk_seaweed.png in Resources */,
+				A597C0AB1961D56D009E41EA /* show_east.png in Resources */,
+				A59915D8190D611200B1AE8E /* phit'am_flower.jpg in Resources */,
+				A597C0911961D46A009E41EA /* tibee_tule.jpg in Resources */,
+				A5160FF41950B7E50068D67B /* PDAnimalsViewController~ipad.xib in Resources */,
+				A597C062195DCFAA009E41EA /* xati_bed.mp3 in Resources */,
+				A59B04BE1912E2D40053B4D8 /* shakoodo_rabbit.jpg in Resources */,
+				A597C07B195DF538009E41EA /* baloxay_Potter_Valley.mp3 in Resources */,
+				A597C013195DCFAA009E41EA /* aa_mithe_my_mother.mp3 in Resources */,
+				A597C07D195DF564009E41EA /* water.xa.mp3 in Resources */,
+				A5AA699019463823005690C9 /* new_river.jpg in Resources */,
+				A597C0811961D38E009E41EA /* them_kata_abalone_shell.jpg in Resources */,
+				A59915D4190D611200B1AE8E /* jom_xale_grey_pine_tree.jpg in Resources */,
+				A56E1448194F30E400BAC46A /* new_sedge.png in Resources */,
+				03242554190D6D6F0077EB3E /* PDWordCollectionViewCell~ipad.xib in Resources */,
+				A59BFD9C192D3100000D45CC /* ts'iya_red_tailed_hawk.jpg in Resources */,
+				A597C03C195DCFAA009E41EA /* masan_jinii_white_bread.mp3 in Resources */,
+				A51610211950C44A0068D67B /* places.plist in Resources */,
+				A597C03A195DCFAA009E41EA /* maayish_corn.mp3 in Resources */,
+				A5160FFE1950B8090068D67B /* PDHomeViewController~ipad.xib in Resources */,
+				A597C079195DF508009E41EA /* CoyoteValley.showdaxay2.mp3 in Resources */,
+				A597C04C195DCFAA009E41EA /* sika_baby_basket.mp3 in Resources */,
+				A597C05B195DCFAA009E41EA /* xabe_rock.mp3 in Resources */,
+				A59915CC190D611200B1AE8E /* Elenor.png in Resources */,
+				A597C0A51961D511009E41EA /* chuhula_north.png in Resources */,
+				A59BFD93192D2E4B000D45CC /* ’uy-diṱema’_eyeglasses.png in Resources */,
+				A59915DA190D611200B1AE8E /* them_abalone.jpg in Resources */,
+				A51610141950BDBE0068D67B /* animals.plist in Resources */,
+				A597C066195DCFAA009E41EA /* yoxayamaa_ukiah.mp3 in Resources */,
+				A5160FEB194F7EA90068D67B /* places.jpg in Resources */,
+				A597C0951961D485009E41EA /* 'aa-mi'e_my_father.png in Resources */,
+				A597C057195DCFAA009E41EA /* tsuu_arrow.mp3 in Resources */,
+				A597C038195DCFAA009E41EA /* libuu_whistle.mp3 in Resources */,
+				A5AA698819463823005690C9 /* new_cat.jpg in Resources */,
+				A597C0931961D479009E41EA /* 'aa-miphane_my_daughter.png in Resources */,
+				A59B03B11912DA010053B4D8 /* bitaa_bear.jpg in Resources */,
+				A59BFD94192D2E4B000D45CC /* ditsiya_bone_awl.png in Resources */,
+				A597C024195DCFAA009E41EA /* dishiy_xale_black_oak_tree.mp3 in Resources */,
+				A5AA699A19464343005690C9 /* coyote_valley.jpg in Resources */,
+				A5160FCD194F626E0068D67B /* home page.png in Resources */,
+				A59BFDA0192D312E000D45CC /* maayish_corn.jpg in Resources */,
+				A59BFDA2192D3153000D45CC /* shats'on_quilt.png in Resources */,
+				A597C034195DCFAA009E41EA /* kal_bead.mp3 in Resources */,
+				A5AA698719463823005690C9 /* new_bed.png in Resources */,
+				A597C0871961D41F009E41EA /* t'ik'_string.jpg in Resources */,
+				A597C051195DCFAA009E41EA /* thooo_acorn_mush.mp3 in Resources */,
+				A597C053195DCFAA009E41EA /* tik_string.mp3 in Resources */,
+				A59915CB190D611200B1AE8E /* Edna3.png in Resources */,
+				A597C023195DCFAA009E41EA /* dishiy_black_oak_acorn.mp3 in Resources */,
+				A5AA698619463823005690C9 /* new_ant.jpg in Resources */,
+				A5160FE9194F7EA90068D67B /* nature.jpg in Resources */,
+				A597C018195DCFAA009E41EA /* aamitsu_my_uncle.mp3 in Resources */,
+				A59B03B71912DA010053B4D8 /* xabe_rock.png in Resources */,
+				A5160FCB194F5FAE0068D67B /* PDHomeScreenViewController~ipad.xib in Resources */,
+				0324254E190D67000077EB3E /* dictionary.plist in Resources */,
+				A597C0A31961D506009E41EA /* datha_yem_old_woman.jpg in Resources */,
+				A597C035195DCFAA009E41EA /* kasil_xale_redwood_tree.mp3 in Resources */,
+				A516101B1950C4270068D67B /* home.plist in Resources */,
+				A5160FDC194F78A00068D67B /* PDCategoryViewController~ipad.xib in Resources */,
+				A5C0849719AFA2B200E83966 /* PDWordCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03986D901908279300CCC87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03986D9E1908279300CCC87F /* InfoPlist.strings in Resources */,
+				A59BFDC3192EA46C000D45CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03986D671908279300CCC87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5160FCA194F5FAD0068D67B /* PDHomeScreenViewController.m in Sources */,
+				A51610251951F8EA0068D67B /* PDContactViewController.m in Sources */,
+				A594296819083ECC000DF532 /* PDWord.m in Sources */,
+				A59429641908302A000DF532 /* PDAboutViewController.m in Sources */,
+				A5160FF31950B7E50068D67B /* PDAnimalsViewController.m in Sources */,
+				03986D7F1908279300CCC87F /* PDAppDelegate.m in Sources */,
+				A5160FDB194F78A00068D67B /* PDCategoryViewController.m in Sources */,
+				03986DB11908294100CCC87F /* PDDictionaryGridViewController.m in Sources */,
+				03242551190D6D540077EB3E /* PDWordCollectionViewCell.m in Sources */,
+				A5160FF81950B7FC0068D67B /* PDFoodViewController.m in Sources */,
+				A5160FFD1950B8090068D67B /* PDHomeViewController.m in Sources */,
+				A51610111950BA210068D67B /* PDTraditionalViewController.m in Sources */,
+				A51610021950B9E70068D67B /* PDPlantsViewController.m in Sources */,
+				03986D7B1908279300CCC87F /* main.m in Sources */,
+				A594296B190845BC000DF532 /* PDWordTableViewController.m in Sources */,
+				A51610071950BA000068D67B /* PDPeopleViewController.m in Sources */,
+				A516100C1950BA120068D67B /* PDPlacesViewController.m in Sources */,
+				A59915A01909EB8600B1AE8E /* PDWordDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03986D8E1908279300CCC87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03986DA01908279300CCC87F /* PomoDictionaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03986D981908279300CCC87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03986D6A1908279300CCC87F /* PomoDictionary */;
+			targetProxy = 03986D971908279300CCC87F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03986D771908279300CCC87F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03986D781908279300CCC87F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03986D9C1908279300CCC87F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03986D9D1908279300CCC87F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03986DA11908279300CCC87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03986DA21908279300CCC87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03986DA41908279300CCC87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PomoDictionary/PomoDictionary-Prefix.pch";
+				INFOPLIST_FILE = "PomoDictionary/PomoDictionary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5dfb99c7-09f3-4d87-aea1-213177dfa810";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03986DA51908279300CCC87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PomoDictionary/PomoDictionary-Prefix.pch";
+				INFOPLIST_FILE = "PomoDictionary/PomoDictionary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5dfb99c7-09f3-4d87-aea1-213177dfa810";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03986DA71908279300CCC87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PomoDictionary.app/PomoDictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PomoDictionary/PomoDictionary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PomoDictionaryTests/PomoDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03986DA81908279300CCC87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PomoDictionary.app/PomoDictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PomoDictionary/PomoDictionary-Prefix.pch";
+				INFOPLIST_FILE = "PomoDictionaryTests/PomoDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03986D661908279300CCC87F /* Build configuration list for PBXProject "PomoDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03986DA11908279300CCC87F /* Debug */,
+				03986DA21908279300CCC87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03986DA31908279300CCC87F /* Build configuration list for PBXNativeTarget "PomoDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03986DA41908279300CCC87F /* Debug */,
+				03986DA51908279300CCC87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03986DA61908279300CCC87F /* Build configuration list for PBXNativeTarget "PomoDictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03986DA71908279300CCC87F /* Debug */,
+				03986DA81908279300CCC87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03986D631908279300CCC87F /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3CEB0ACC-16AE-459A-ABE0-22903C5EE0F8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PomoDictionary</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C0B2822DB6E5FC316E44BD930D58D6774EE4D5BA</key>
+		<string>https://github.com/joshleibsly/PomoDictionary.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PomoDictionary/PomoDictionary.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C0B2822DB6E5FC316E44BD930D58D6774EE4D5BA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/joshleibsly/PomoDictionary.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C0B2822DB6E5FC316E44BD930D58D6774EE4D5BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C0B2822DB6E5FC316E44BD930D58D6774EE4D5BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PomoDictionary</string>
+		</dict>
+	</array>
+</dict>
+</plist>
